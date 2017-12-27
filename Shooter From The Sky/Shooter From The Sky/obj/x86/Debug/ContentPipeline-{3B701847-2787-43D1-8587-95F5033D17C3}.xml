@@ -1,0 +1,2937 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline">
+  <Asset Type="Pipeline:BuildItemCollection">
+    <Item>
+      <Source>Tiles\Save Game Tile.png</Source>
+      <Name>Tiles\Save Game Tile</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Tiles\Save Game Tile.xnb</Output>
+      <Time>2015-12-25T18:47:08-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Tiles\Wall Tile.png</Source>
+      <Name>Tiles\Wall Tile</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Tiles\Wall Tile.xnb</Output>
+      <Time>2015-12-30T10:32:34-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Tiles\Reg Tile.png</Source>
+      <Name>Tiles\Reg Tile</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Tiles\Reg Tile.xnb</Output>
+      <Time>2015-12-25T18:22:10-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Tiles\Spawn Tile.png</Source>
+      <Name>Tiles\Spawn Tile</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Tiles\Spawn Tile.xnb</Output>
+      <Time>2015-12-25T18:46:10-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Enemy Sprites\Idle\enemy-idle_rifle_0.png</Source>
+      <Name>Enemy Sprites\Idle\enemy-idle_rifle_0</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Enemy Sprites\Idle\enemy-idle_rifle_0.xnb</Output>
+      <Time>2015-12-28T14:24:12-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Enemy Sprites\Idle\enemy-idle_rifle_1.png</Source>
+      <Name>Enemy Sprites\Idle\enemy-idle_rifle_1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Enemy Sprites\Idle\enemy-idle_rifle_1.xnb</Output>
+      <Time>2015-12-28T14:24:12-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Enemy Sprites\Idle\enemy-idle_rifle_10.png</Source>
+      <Name>Enemy Sprites\Idle\enemy-idle_rifle_10</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Enemy Sprites\Idle\enemy-idle_rifle_10.xnb</Output>
+      <Time>2015-12-28T14:24:12-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Enemy Sprites\Idle\enemy-idle_rifle_11.png</Source>
+      <Name>Enemy Sprites\Idle\enemy-idle_rifle_11</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Enemy Sprites\Idle\enemy-idle_rifle_11.xnb</Output>
+      <Time>2015-12-28T14:24:12-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Enemy Sprites\Idle\enemy-idle_rifle_12.png</Source>
+      <Name>Enemy Sprites\Idle\enemy-idle_rifle_12</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Enemy Sprites\Idle\enemy-idle_rifle_12.xnb</Output>
+      <Time>2015-12-28T14:24:12-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Enemy Sprites\Idle\enemy-idle_rifle_13.png</Source>
+      <Name>Enemy Sprites\Idle\enemy-idle_rifle_13</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Enemy Sprites\Idle\enemy-idle_rifle_13.xnb</Output>
+      <Time>2015-12-28T14:24:12-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Enemy Sprites\Idle\enemy-idle_rifle_14.png</Source>
+      <Name>Enemy Sprites\Idle\enemy-idle_rifle_14</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Enemy Sprites\Idle\enemy-idle_rifle_14.xnb</Output>
+      <Time>2015-12-28T14:24:12-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Enemy Sprites\Idle\enemy-idle_rifle_15.png</Source>
+      <Name>Enemy Sprites\Idle\enemy-idle_rifle_15</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Enemy Sprites\Idle\enemy-idle_rifle_15.xnb</Output>
+      <Time>2015-12-28T14:24:12-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Enemy Sprites\Idle\enemy-idle_rifle_16.png</Source>
+      <Name>Enemy Sprites\Idle\enemy-idle_rifle_16</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Enemy Sprites\Idle\enemy-idle_rifle_16.xnb</Output>
+      <Time>2015-12-28T14:24:12-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Enemy Sprites\Idle\enemy-idle_rifle_17.png</Source>
+      <Name>Enemy Sprites\Idle\enemy-idle_rifle_17</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Enemy Sprites\Idle\enemy-idle_rifle_17.xnb</Output>
+      <Time>2015-12-28T14:24:12-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Enemy Sprites\Idle\enemy-idle_rifle_18.png</Source>
+      <Name>Enemy Sprites\Idle\enemy-idle_rifle_18</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Enemy Sprites\Idle\enemy-idle_rifle_18.xnb</Output>
+      <Time>2015-12-28T14:24:12-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Enemy Sprites\Idle\enemy-idle_rifle_19.png</Source>
+      <Name>Enemy Sprites\Idle\enemy-idle_rifle_19</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Enemy Sprites\Idle\enemy-idle_rifle_19.xnb</Output>
+      <Time>2015-12-28T14:24:12-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Enemy Sprites\Idle\enemy-idle_rifle_2.png</Source>
+      <Name>Enemy Sprites\Idle\enemy-idle_rifle_2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Enemy Sprites\Idle\enemy-idle_rifle_2.xnb</Output>
+      <Time>2015-12-28T14:24:12-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Enemy Sprites\Idle\enemy-idle_rifle_3.png</Source>
+      <Name>Enemy Sprites\Idle\enemy-idle_rifle_3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Enemy Sprites\Idle\enemy-idle_rifle_3.xnb</Output>
+      <Time>2015-12-28T14:24:12-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Enemy Sprites\Idle\enemy-idle_rifle_4.png</Source>
+      <Name>Enemy Sprites\Idle\enemy-idle_rifle_4</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Enemy Sprites\Idle\enemy-idle_rifle_4.xnb</Output>
+      <Time>2015-12-28T14:24:12-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Enemy Sprites\Idle\enemy-idle_rifle_5.png</Source>
+      <Name>Enemy Sprites\Idle\enemy-idle_rifle_5</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Enemy Sprites\Idle\enemy-idle_rifle_5.xnb</Output>
+      <Time>2015-12-28T14:24:12-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Enemy Sprites\Idle\enemy-idle_rifle_6.png</Source>
+      <Name>Enemy Sprites\Idle\enemy-idle_rifle_6</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Enemy Sprites\Idle\enemy-idle_rifle_6.xnb</Output>
+      <Time>2015-12-28T14:24:12-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Enemy Sprites\Idle\enemy-idle_rifle_7.png</Source>
+      <Name>Enemy Sprites\Idle\enemy-idle_rifle_7</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Enemy Sprites\Idle\enemy-idle_rifle_7.xnb</Output>
+      <Time>2015-12-28T14:24:12-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Enemy Sprites\Idle\enemy-idle_rifle_8.png</Source>
+      <Name>Enemy Sprites\Idle\enemy-idle_rifle_8</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Enemy Sprites\Idle\enemy-idle_rifle_8.xnb</Output>
+      <Time>2015-12-28T14:24:12-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Enemy Sprites\Idle\enemy-idle_rifle_9.png</Source>
+      <Name>Enemy Sprites\Idle\enemy-idle_rifle_9</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Enemy Sprites\Idle\enemy-idle_rifle_9.xnb</Output>
+      <Time>2015-12-28T14:24:12-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Enemy Sprites\Move\enemy-move_rifle_0.png</Source>
+      <Name>Enemy Sprites\Move\enemy-move_rifle_0</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Enemy Sprites\Move\enemy-move_rifle_0.xnb</Output>
+      <Time>2015-12-28T14:24:22-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Enemy Sprites\Move\enemy-move_rifle_1.png</Source>
+      <Name>Enemy Sprites\Move\enemy-move_rifle_1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Enemy Sprites\Move\enemy-move_rifle_1.xnb</Output>
+      <Time>2015-12-28T14:24:22-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Enemy Sprites\Move\enemy-move_rifle_10.png</Source>
+      <Name>Enemy Sprites\Move\enemy-move_rifle_10</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Enemy Sprites\Move\enemy-move_rifle_10.xnb</Output>
+      <Time>2015-12-28T14:24:22-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Enemy Sprites\Move\enemy-move_rifle_11.png</Source>
+      <Name>Enemy Sprites\Move\enemy-move_rifle_11</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Enemy Sprites\Move\enemy-move_rifle_11.xnb</Output>
+      <Time>2015-12-28T14:24:22-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Enemy Sprites\Move\enemy-move_rifle_12.png</Source>
+      <Name>Enemy Sprites\Move\enemy-move_rifle_12</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Enemy Sprites\Move\enemy-move_rifle_12.xnb</Output>
+      <Time>2015-12-28T14:24:22-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Enemy Sprites\Move\enemy-move_rifle_13.png</Source>
+      <Name>Enemy Sprites\Move\enemy-move_rifle_13</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Enemy Sprites\Move\enemy-move_rifle_13.xnb</Output>
+      <Time>2015-12-28T14:24:22-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Enemy Sprites\Move\enemy-move_rifle_14.png</Source>
+      <Name>Enemy Sprites\Move\enemy-move_rifle_14</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Enemy Sprites\Move\enemy-move_rifle_14.xnb</Output>
+      <Time>2015-12-28T14:24:22-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Enemy Sprites\Move\enemy-move_rifle_15.png</Source>
+      <Name>Enemy Sprites\Move\enemy-move_rifle_15</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Enemy Sprites\Move\enemy-move_rifle_15.xnb</Output>
+      <Time>2015-12-28T14:24:22-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Enemy Sprites\Move\enemy-move_rifle_16.png</Source>
+      <Name>Enemy Sprites\Move\enemy-move_rifle_16</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Enemy Sprites\Move\enemy-move_rifle_16.xnb</Output>
+      <Time>2015-12-28T14:24:22-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Enemy Sprites\Move\enemy-move_rifle_17.png</Source>
+      <Name>Enemy Sprites\Move\enemy-move_rifle_17</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Enemy Sprites\Move\enemy-move_rifle_17.xnb</Output>
+      <Time>2015-12-28T14:24:22-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Enemy Sprites\Move\enemy-move_rifle_18.png</Source>
+      <Name>Enemy Sprites\Move\enemy-move_rifle_18</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Enemy Sprites\Move\enemy-move_rifle_18.xnb</Output>
+      <Time>2015-12-28T14:24:22-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Enemy Sprites\Move\enemy-move_rifle_19.png</Source>
+      <Name>Enemy Sprites\Move\enemy-move_rifle_19</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Enemy Sprites\Move\enemy-move_rifle_19.xnb</Output>
+      <Time>2015-12-28T14:24:22-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Enemy Sprites\Move\enemy-move_rifle_2.png</Source>
+      <Name>Enemy Sprites\Move\enemy-move_rifle_2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Enemy Sprites\Move\enemy-move_rifle_2.xnb</Output>
+      <Time>2015-12-28T14:24:22-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Enemy Sprites\Move\enemy-move_rifle_3.png</Source>
+      <Name>Enemy Sprites\Move\enemy-move_rifle_3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Enemy Sprites\Move\enemy-move_rifle_3.xnb</Output>
+      <Time>2015-12-28T14:24:22-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Enemy Sprites\Move\enemy-move_rifle_4.png</Source>
+      <Name>Enemy Sprites\Move\enemy-move_rifle_4</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Enemy Sprites\Move\enemy-move_rifle_4.xnb</Output>
+      <Time>2015-12-28T14:24:22-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Enemy Sprites\Move\enemy-move_rifle_5.png</Source>
+      <Name>Enemy Sprites\Move\enemy-move_rifle_5</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Enemy Sprites\Move\enemy-move_rifle_5.xnb</Output>
+      <Time>2015-12-28T14:24:22-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Enemy Sprites\Move\enemy-move_rifle_6.png</Source>
+      <Name>Enemy Sprites\Move\enemy-move_rifle_6</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Enemy Sprites\Move\enemy-move_rifle_6.xnb</Output>
+      <Time>2015-12-28T14:24:22-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Enemy Sprites\Move\enemy-move_rifle_7.png</Source>
+      <Name>Enemy Sprites\Move\enemy-move_rifle_7</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Enemy Sprites\Move\enemy-move_rifle_7.xnb</Output>
+      <Time>2015-12-28T14:24:22-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Enemy Sprites\Move\enemy-move_rifle_8.png</Source>
+      <Name>Enemy Sprites\Move\enemy-move_rifle_8</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Enemy Sprites\Move\enemy-move_rifle_8.xnb</Output>
+      <Time>2015-12-28T14:24:22-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Enemy Sprites\Move\enemy-move_rifle_9.png</Source>
+      <Name>Enemy Sprites\Move\enemy-move_rifle_9</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Enemy Sprites\Move\enemy-move_rifle_9.xnb</Output>
+      <Time>2015-12-28T14:24:22-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Enemy Sprites\Reload\enemy-reload_rifle_0.png</Source>
+      <Name>Enemy Sprites\Reload\enemy-reload_rifle_0</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Enemy Sprites\Reload\enemy-reload_rifle_0.xnb</Output>
+      <Time>2015-12-28T14:24:34-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Enemy Sprites\Reload\enemy-reload_rifle_1.png</Source>
+      <Name>Enemy Sprites\Reload\enemy-reload_rifle_1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Enemy Sprites\Reload\enemy-reload_rifle_1.xnb</Output>
+      <Time>2015-12-28T14:24:34-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Enemy Sprites\Reload\enemy-reload_rifle_10.png</Source>
+      <Name>Enemy Sprites\Reload\enemy-reload_rifle_10</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Enemy Sprites\Reload\enemy-reload_rifle_10.xnb</Output>
+      <Time>2015-12-28T14:24:34-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Enemy Sprites\Reload\enemy-reload_rifle_11.png</Source>
+      <Name>Enemy Sprites\Reload\enemy-reload_rifle_11</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Enemy Sprites\Reload\enemy-reload_rifle_11.xnb</Output>
+      <Time>2015-12-28T14:24:34-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Enemy Sprites\Reload\enemy-reload_rifle_12.png</Source>
+      <Name>Enemy Sprites\Reload\enemy-reload_rifle_12</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Enemy Sprites\Reload\enemy-reload_rifle_12.xnb</Output>
+      <Time>2015-12-28T14:24:34-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Enemy Sprites\Reload\enemy-reload_rifle_13.png</Source>
+      <Name>Enemy Sprites\Reload\enemy-reload_rifle_13</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Enemy Sprites\Reload\enemy-reload_rifle_13.xnb</Output>
+      <Time>2015-12-28T14:24:34-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Enemy Sprites\Reload\enemy-reload_rifle_14.png</Source>
+      <Name>Enemy Sprites\Reload\enemy-reload_rifle_14</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Enemy Sprites\Reload\enemy-reload_rifle_14.xnb</Output>
+      <Time>2015-12-28T14:24:34-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Enemy Sprites\Reload\enemy-reload_rifle_15.png</Source>
+      <Name>Enemy Sprites\Reload\enemy-reload_rifle_15</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Enemy Sprites\Reload\enemy-reload_rifle_15.xnb</Output>
+      <Time>2015-12-28T14:24:34-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Enemy Sprites\Reload\enemy-reload_rifle_16.png</Source>
+      <Name>Enemy Sprites\Reload\enemy-reload_rifle_16</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Enemy Sprites\Reload\enemy-reload_rifle_16.xnb</Output>
+      <Time>2015-12-28T14:24:34-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Enemy Sprites\Reload\enemy-reload_rifle_17.png</Source>
+      <Name>Enemy Sprites\Reload\enemy-reload_rifle_17</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Enemy Sprites\Reload\enemy-reload_rifle_17.xnb</Output>
+      <Time>2015-12-28T14:24:34-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Enemy Sprites\Reload\enemy-reload_rifle_18.png</Source>
+      <Name>Enemy Sprites\Reload\enemy-reload_rifle_18</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Enemy Sprites\Reload\enemy-reload_rifle_18.xnb</Output>
+      <Time>2015-12-28T14:24:34-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Enemy Sprites\Reload\enemy-reload_rifle_19.png</Source>
+      <Name>Enemy Sprites\Reload\enemy-reload_rifle_19</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Enemy Sprites\Reload\enemy-reload_rifle_19.xnb</Output>
+      <Time>2015-12-28T14:24:34-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Enemy Sprites\Reload\enemy-reload_rifle_2.png</Source>
+      <Name>Enemy Sprites\Reload\enemy-reload_rifle_2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Enemy Sprites\Reload\enemy-reload_rifle_2.xnb</Output>
+      <Time>2015-12-28T14:24:34-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Enemy Sprites\Reload\enemy-reload_rifle_3.png</Source>
+      <Name>Enemy Sprites\Reload\enemy-reload_rifle_3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Enemy Sprites\Reload\enemy-reload_rifle_3.xnb</Output>
+      <Time>2015-12-28T14:24:34-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Enemy Sprites\Reload\enemy-reload_rifle_4.png</Source>
+      <Name>Enemy Sprites\Reload\enemy-reload_rifle_4</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Enemy Sprites\Reload\enemy-reload_rifle_4.xnb</Output>
+      <Time>2015-12-28T14:24:34-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Enemy Sprites\Reload\enemy-reload_rifle_5.png</Source>
+      <Name>Enemy Sprites\Reload\enemy-reload_rifle_5</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Enemy Sprites\Reload\enemy-reload_rifle_5.xnb</Output>
+      <Time>2015-12-28T14:24:34-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Enemy Sprites\Reload\enemy-reload_rifle_6.png</Source>
+      <Name>Enemy Sprites\Reload\enemy-reload_rifle_6</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Enemy Sprites\Reload\enemy-reload_rifle_6.xnb</Output>
+      <Time>2015-12-28T14:24:34-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Enemy Sprites\Reload\enemy-reload_rifle_7.png</Source>
+      <Name>Enemy Sprites\Reload\enemy-reload_rifle_7</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Enemy Sprites\Reload\enemy-reload_rifle_7.xnb</Output>
+      <Time>2015-12-28T14:24:34-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Enemy Sprites\Reload\enemy-reload_rifle_8.png</Source>
+      <Name>Enemy Sprites\Reload\enemy-reload_rifle_8</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Enemy Sprites\Reload\enemy-reload_rifle_8.xnb</Output>
+      <Time>2015-12-28T14:24:34-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Enemy Sprites\Reload\enemy-reload_rifle_9.png</Source>
+      <Name>Enemy Sprites\Reload\enemy-reload_rifle_9</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Enemy Sprites\Reload\enemy-reload_rifle_9.xnb</Output>
+      <Time>2015-12-28T14:24:34-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Enemy Sprites\Shoot\enemy-shoot_rifle_0.png</Source>
+      <Name>Enemy Sprites\Shoot\enemy-shoot_rifle_0</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Enemy Sprites\Shoot\enemy-shoot_rifle_0.xnb</Output>
+      <Time>2015-12-28T14:24:42-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Enemy Sprites\Shoot\enemy-shoot_rifle_1.png</Source>
+      <Name>Enemy Sprites\Shoot\enemy-shoot_rifle_1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Enemy Sprites\Shoot\enemy-shoot_rifle_1.xnb</Output>
+      <Time>2015-12-28T14:24:42-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Enemy Sprites\Shoot\enemy-shoot_rifle_2.png</Source>
+      <Name>Enemy Sprites\Shoot\enemy-shoot_rifle_2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Enemy Sprites\Shoot\enemy-shoot_rifle_2.xnb</Output>
+      <Time>2015-12-28T14:24:42-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Player Sprites\Handgun\Idle\survivor-idle_handgun_0.png</Source>
+      <Name>Player Sprites\Handgun\Idle\survivor-idle_handgun_0</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Player Sprites\Handgun\Idle\survivor-idle_handgun_0.xnb</Output>
+      <Time>2015-12-28T14:04:12-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Player Sprites\Handgun\Idle\survivor-idle_handgun_1.png</Source>
+      <Name>Player Sprites\Handgun\Idle\survivor-idle_handgun_1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Player Sprites\Handgun\Idle\survivor-idle_handgun_1.xnb</Output>
+      <Time>2015-12-28T14:04:12-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Player Sprites\Handgun\Idle\survivor-idle_handgun_10.png</Source>
+      <Name>Player Sprites\Handgun\Idle\survivor-idle_handgun_10</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Player Sprites\Handgun\Idle\survivor-idle_handgun_10.xnb</Output>
+      <Time>2015-12-28T14:04:12-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Player Sprites\Handgun\Idle\survivor-idle_handgun_11.png</Source>
+      <Name>Player Sprites\Handgun\Idle\survivor-idle_handgun_11</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Player Sprites\Handgun\Idle\survivor-idle_handgun_11.xnb</Output>
+      <Time>2015-12-28T14:04:12-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Player Sprites\Handgun\Idle\survivor-idle_handgun_12.png</Source>
+      <Name>Player Sprites\Handgun\Idle\survivor-idle_handgun_12</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Player Sprites\Handgun\Idle\survivor-idle_handgun_12.xnb</Output>
+      <Time>2015-12-28T14:04:12-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Player Sprites\Handgun\Idle\survivor-idle_handgun_13.png</Source>
+      <Name>Player Sprites\Handgun\Idle\survivor-idle_handgun_13</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Player Sprites\Handgun\Idle\survivor-idle_handgun_13.xnb</Output>
+      <Time>2015-12-28T14:04:12-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Player Sprites\Handgun\Idle\survivor-idle_handgun_14.png</Source>
+      <Name>Player Sprites\Handgun\Idle\survivor-idle_handgun_14</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Player Sprites\Handgun\Idle\survivor-idle_handgun_14.xnb</Output>
+      <Time>2015-12-28T14:04:12-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Player Sprites\Handgun\Idle\survivor-idle_handgun_15.png</Source>
+      <Name>Player Sprites\Handgun\Idle\survivor-idle_handgun_15</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Player Sprites\Handgun\Idle\survivor-idle_handgun_15.xnb</Output>
+      <Time>2015-12-28T14:04:12-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Player Sprites\Handgun\Idle\survivor-idle_handgun_16.png</Source>
+      <Name>Player Sprites\Handgun\Idle\survivor-idle_handgun_16</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Player Sprites\Handgun\Idle\survivor-idle_handgun_16.xnb</Output>
+      <Time>2015-12-28T14:04:12-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Player Sprites\Handgun\Idle\survivor-idle_handgun_17.png</Source>
+      <Name>Player Sprites\Handgun\Idle\survivor-idle_handgun_17</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Player Sprites\Handgun\Idle\survivor-idle_handgun_17.xnb</Output>
+      <Time>2015-12-28T14:04:12-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Player Sprites\Handgun\Idle\survivor-idle_handgun_18.png</Source>
+      <Name>Player Sprites\Handgun\Idle\survivor-idle_handgun_18</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Player Sprites\Handgun\Idle\survivor-idle_handgun_18.xnb</Output>
+      <Time>2015-12-28T14:04:12-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Player Sprites\Handgun\Idle\survivor-idle_handgun_19.png</Source>
+      <Name>Player Sprites\Handgun\Idle\survivor-idle_handgun_19</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Player Sprites\Handgun\Idle\survivor-idle_handgun_19.xnb</Output>
+      <Time>2015-12-28T14:04:12-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Player Sprites\Handgun\Idle\survivor-idle_handgun_2.png</Source>
+      <Name>Player Sprites\Handgun\Idle\survivor-idle_handgun_2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Player Sprites\Handgun\Idle\survivor-idle_handgun_2.xnb</Output>
+      <Time>2015-12-28T14:04:12-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Player Sprites\Handgun\Idle\survivor-idle_handgun_3.png</Source>
+      <Name>Player Sprites\Handgun\Idle\survivor-idle_handgun_3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Player Sprites\Handgun\Idle\survivor-idle_handgun_3.xnb</Output>
+      <Time>2015-12-28T14:04:12-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Player Sprites\Handgun\Idle\survivor-idle_handgun_4.png</Source>
+      <Name>Player Sprites\Handgun\Idle\survivor-idle_handgun_4</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Player Sprites\Handgun\Idle\survivor-idle_handgun_4.xnb</Output>
+      <Time>2015-12-28T14:04:12-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Player Sprites\Handgun\Idle\survivor-idle_handgun_5.png</Source>
+      <Name>Player Sprites\Handgun\Idle\survivor-idle_handgun_5</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Player Sprites\Handgun\Idle\survivor-idle_handgun_5.xnb</Output>
+      <Time>2015-12-28T14:04:12-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Player Sprites\Handgun\Idle\survivor-idle_handgun_6.png</Source>
+      <Name>Player Sprites\Handgun\Idle\survivor-idle_handgun_6</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Player Sprites\Handgun\Idle\survivor-idle_handgun_6.xnb</Output>
+      <Time>2015-12-28T14:04:12-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Player Sprites\Handgun\Idle\survivor-idle_handgun_7.png</Source>
+      <Name>Player Sprites\Handgun\Idle\survivor-idle_handgun_7</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Player Sprites\Handgun\Idle\survivor-idle_handgun_7.xnb</Output>
+      <Time>2015-12-28T14:04:12-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Player Sprites\Handgun\Idle\survivor-idle_handgun_8.png</Source>
+      <Name>Player Sprites\Handgun\Idle\survivor-idle_handgun_8</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Player Sprites\Handgun\Idle\survivor-idle_handgun_8.xnb</Output>
+      <Time>2015-12-28T14:04:12-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Player Sprites\Handgun\Idle\survivor-idle_handgun_9.png</Source>
+      <Name>Player Sprites\Handgun\Idle\survivor-idle_handgun_9</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Player Sprites\Handgun\Idle\survivor-idle_handgun_9.xnb</Output>
+      <Time>2015-12-28T14:04:12-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Player Sprites\Handgun\Move\survivor-move_handgun_0.png</Source>
+      <Name>Player Sprites\Handgun\Move\survivor-move_handgun_0</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Player Sprites\Handgun\Move\survivor-move_handgun_0.xnb</Output>
+      <Time>2015-12-28T14:04:32-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Player Sprites\Handgun\Move\survivor-move_handgun_1.png</Source>
+      <Name>Player Sprites\Handgun\Move\survivor-move_handgun_1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Player Sprites\Handgun\Move\survivor-move_handgun_1.xnb</Output>
+      <Time>2015-12-28T14:04:32-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Player Sprites\Handgun\Move\survivor-move_handgun_10.png</Source>
+      <Name>Player Sprites\Handgun\Move\survivor-move_handgun_10</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Player Sprites\Handgun\Move\survivor-move_handgun_10.xnb</Output>
+      <Time>2015-12-28T14:04:32-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Player Sprites\Handgun\Move\survivor-move_handgun_11.png</Source>
+      <Name>Player Sprites\Handgun\Move\survivor-move_handgun_11</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Player Sprites\Handgun\Move\survivor-move_handgun_11.xnb</Output>
+      <Time>2015-12-28T14:04:32-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Player Sprites\Handgun\Move\survivor-move_handgun_12.png</Source>
+      <Name>Player Sprites\Handgun\Move\survivor-move_handgun_12</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Player Sprites\Handgun\Move\survivor-move_handgun_12.xnb</Output>
+      <Time>2015-12-28T14:04:32-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Player Sprites\Handgun\Move\survivor-move_handgun_13.png</Source>
+      <Name>Player Sprites\Handgun\Move\survivor-move_handgun_13</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Player Sprites\Handgun\Move\survivor-move_handgun_13.xnb</Output>
+      <Time>2015-12-28T14:04:32-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Player Sprites\Handgun\Move\survivor-move_handgun_14.png</Source>
+      <Name>Player Sprites\Handgun\Move\survivor-move_handgun_14</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Player Sprites\Handgun\Move\survivor-move_handgun_14.xnb</Output>
+      <Time>2015-12-28T14:04:32-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Player Sprites\Handgun\Move\survivor-move_handgun_15.png</Source>
+      <Name>Player Sprites\Handgun\Move\survivor-move_handgun_15</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Player Sprites\Handgun\Move\survivor-move_handgun_15.xnb</Output>
+      <Time>2015-12-28T14:04:32-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Player Sprites\Handgun\Move\survivor-move_handgun_16.png</Source>
+      <Name>Player Sprites\Handgun\Move\survivor-move_handgun_16</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Player Sprites\Handgun\Move\survivor-move_handgun_16.xnb</Output>
+      <Time>2015-12-28T14:04:32-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Player Sprites\Handgun\Move\survivor-move_handgun_17.png</Source>
+      <Name>Player Sprites\Handgun\Move\survivor-move_handgun_17</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Player Sprites\Handgun\Move\survivor-move_handgun_17.xnb</Output>
+      <Time>2015-12-28T14:04:32-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Player Sprites\Handgun\Move\survivor-move_handgun_18.png</Source>
+      <Name>Player Sprites\Handgun\Move\survivor-move_handgun_18</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Player Sprites\Handgun\Move\survivor-move_handgun_18.xnb</Output>
+      <Time>2015-12-28T14:04:32-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Player Sprites\Handgun\Move\survivor-move_handgun_19.png</Source>
+      <Name>Player Sprites\Handgun\Move\survivor-move_handgun_19</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Player Sprites\Handgun\Move\survivor-move_handgun_19.xnb</Output>
+      <Time>2015-12-28T14:04:32-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Player Sprites\Handgun\Move\survivor-move_handgun_2.png</Source>
+      <Name>Player Sprites\Handgun\Move\survivor-move_handgun_2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Player Sprites\Handgun\Move\survivor-move_handgun_2.xnb</Output>
+      <Time>2015-12-28T14:04:32-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Player Sprites\Handgun\Move\survivor-move_handgun_3.png</Source>
+      <Name>Player Sprites\Handgun\Move\survivor-move_handgun_3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Player Sprites\Handgun\Move\survivor-move_handgun_3.xnb</Output>
+      <Time>2015-12-28T14:04:32-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Player Sprites\Handgun\Move\survivor-move_handgun_4.png</Source>
+      <Name>Player Sprites\Handgun\Move\survivor-move_handgun_4</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Player Sprites\Handgun\Move\survivor-move_handgun_4.xnb</Output>
+      <Time>2015-12-28T14:04:32-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Player Sprites\Handgun\Move\survivor-move_handgun_5.png</Source>
+      <Name>Player Sprites\Handgun\Move\survivor-move_handgun_5</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Player Sprites\Handgun\Move\survivor-move_handgun_5.xnb</Output>
+      <Time>2015-12-28T14:04:32-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Player Sprites\Handgun\Move\survivor-move_handgun_6.png</Source>
+      <Name>Player Sprites\Handgun\Move\survivor-move_handgun_6</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Player Sprites\Handgun\Move\survivor-move_handgun_6.xnb</Output>
+      <Time>2015-12-28T14:04:32-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Player Sprites\Handgun\Move\survivor-move_handgun_7.png</Source>
+      <Name>Player Sprites\Handgun\Move\survivor-move_handgun_7</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Player Sprites\Handgun\Move\survivor-move_handgun_7.xnb</Output>
+      <Time>2015-12-28T14:04:32-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Player Sprites\Handgun\Move\survivor-move_handgun_8.png</Source>
+      <Name>Player Sprites\Handgun\Move\survivor-move_handgun_8</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Player Sprites\Handgun\Move\survivor-move_handgun_8.xnb</Output>
+      <Time>2015-12-28T14:04:32-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Player Sprites\Handgun\Move\survivor-move_handgun_9.png</Source>
+      <Name>Player Sprites\Handgun\Move\survivor-move_handgun_9</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Player Sprites\Handgun\Move\survivor-move_handgun_9.xnb</Output>
+      <Time>2015-12-28T14:04:32-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Player Sprites\Handgun\Reload\survivor-reload_handgun_0.png</Source>
+      <Name>Player Sprites\Handgun\Reload\survivor-reload_handgun_0</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Player Sprites\Handgun\Reload\survivor-reload_handgun_0.xnb</Output>
+      <Time>2015-12-28T14:05:18-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Player Sprites\Handgun\Reload\survivor-reload_handgun_1.png</Source>
+      <Name>Player Sprites\Handgun\Reload\survivor-reload_handgun_1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Player Sprites\Handgun\Reload\survivor-reload_handgun_1.xnb</Output>
+      <Time>2015-12-28T14:05:18-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Player Sprites\Handgun\Reload\survivor-reload_handgun_10.png</Source>
+      <Name>Player Sprites\Handgun\Reload\survivor-reload_handgun_10</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Player Sprites\Handgun\Reload\survivor-reload_handgun_10.xnb</Output>
+      <Time>2015-12-28T14:05:18-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Player Sprites\Handgun\Reload\survivor-reload_handgun_11.png</Source>
+      <Name>Player Sprites\Handgun\Reload\survivor-reload_handgun_11</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Player Sprites\Handgun\Reload\survivor-reload_handgun_11.xnb</Output>
+      <Time>2015-12-28T14:05:18-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Player Sprites\Handgun\Reload\survivor-reload_handgun_12.png</Source>
+      <Name>Player Sprites\Handgun\Reload\survivor-reload_handgun_12</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Player Sprites\Handgun\Reload\survivor-reload_handgun_12.xnb</Output>
+      <Time>2015-12-28T14:05:18-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Player Sprites\Handgun\Reload\survivor-reload_handgun_13.png</Source>
+      <Name>Player Sprites\Handgun\Reload\survivor-reload_handgun_13</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Player Sprites\Handgun\Reload\survivor-reload_handgun_13.xnb</Output>
+      <Time>2015-12-28T14:05:18-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Player Sprites\Handgun\Reload\survivor-reload_handgun_14.png</Source>
+      <Name>Player Sprites\Handgun\Reload\survivor-reload_handgun_14</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Player Sprites\Handgun\Reload\survivor-reload_handgun_14.xnb</Output>
+      <Time>2015-12-28T14:05:18-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Player Sprites\Handgun\Reload\survivor-reload_handgun_2.png</Source>
+      <Name>Player Sprites\Handgun\Reload\survivor-reload_handgun_2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Player Sprites\Handgun\Reload\survivor-reload_handgun_2.xnb</Output>
+      <Time>2015-12-28T14:05:18-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Player Sprites\Handgun\Reload\survivor-reload_handgun_3.png</Source>
+      <Name>Player Sprites\Handgun\Reload\survivor-reload_handgun_3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Player Sprites\Handgun\Reload\survivor-reload_handgun_3.xnb</Output>
+      <Time>2015-12-28T14:05:18-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Player Sprites\Handgun\Reload\survivor-reload_handgun_4.png</Source>
+      <Name>Player Sprites\Handgun\Reload\survivor-reload_handgun_4</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Player Sprites\Handgun\Reload\survivor-reload_handgun_4.xnb</Output>
+      <Time>2015-12-28T14:05:18-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Player Sprites\Handgun\Reload\survivor-reload_handgun_5.png</Source>
+      <Name>Player Sprites\Handgun\Reload\survivor-reload_handgun_5</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Player Sprites\Handgun\Reload\survivor-reload_handgun_5.xnb</Output>
+      <Time>2015-12-28T14:05:18-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Player Sprites\Handgun\Reload\survivor-reload_handgun_6.png</Source>
+      <Name>Player Sprites\Handgun\Reload\survivor-reload_handgun_6</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Player Sprites\Handgun\Reload\survivor-reload_handgun_6.xnb</Output>
+      <Time>2015-12-28T14:05:18-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Player Sprites\Handgun\Reload\survivor-reload_handgun_7.png</Source>
+      <Name>Player Sprites\Handgun\Reload\survivor-reload_handgun_7</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Player Sprites\Handgun\Reload\survivor-reload_handgun_7.xnb</Output>
+      <Time>2015-12-28T14:05:18-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Player Sprites\Handgun\Reload\survivor-reload_handgun_8.png</Source>
+      <Name>Player Sprites\Handgun\Reload\survivor-reload_handgun_8</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Player Sprites\Handgun\Reload\survivor-reload_handgun_8.xnb</Output>
+      <Time>2015-12-28T14:05:18-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Player Sprites\Handgun\Reload\survivor-reload_handgun_9.png</Source>
+      <Name>Player Sprites\Handgun\Reload\survivor-reload_handgun_9</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Player Sprites\Handgun\Reload\survivor-reload_handgun_9.xnb</Output>
+      <Time>2015-12-28T14:05:18-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Player Sprites\Handgun\Shoot\survivor-shoot_handgun_0.png</Source>
+      <Name>Player Sprites\Handgun\Shoot\survivor-shoot_handgun_0</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Player Sprites\Handgun\Shoot\survivor-shoot_handgun_0.xnb</Output>
+      <Time>2015-12-28T14:05:28-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Player Sprites\Handgun\Shoot\survivor-shoot_handgun_1.png</Source>
+      <Name>Player Sprites\Handgun\Shoot\survivor-shoot_handgun_1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Player Sprites\Handgun\Shoot\survivor-shoot_handgun_1.xnb</Output>
+      <Time>2015-12-28T14:05:28-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Player Sprites\Handgun\Shoot\survivor-shoot_handgun_2.png</Source>
+      <Name>Player Sprites\Handgun\Shoot\survivor-shoot_handgun_2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Player Sprites\Handgun\Shoot\survivor-shoot_handgun_2.xnb</Output>
+      <Time>2015-12-28T14:05:28-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Player Sprites\Rifle\Idle\survivor-idle_rifle_0.png</Source>
+      <Name>Player Sprites\Rifle\Idle\survivor-idle_rifle_0</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Player Sprites\Rifle\Idle\survivor-idle_rifle_0.xnb</Output>
+      <Time>2015-12-28T14:06:28-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Player Sprites\Rifle\Idle\survivor-idle_rifle_1.png</Source>
+      <Name>Player Sprites\Rifle\Idle\survivor-idle_rifle_1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Player Sprites\Rifle\Idle\survivor-idle_rifle_1.xnb</Output>
+      <Time>2015-12-28T14:06:28-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Player Sprites\Rifle\Idle\survivor-idle_rifle_10.png</Source>
+      <Name>Player Sprites\Rifle\Idle\survivor-idle_rifle_10</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Player Sprites\Rifle\Idle\survivor-idle_rifle_10.xnb</Output>
+      <Time>2015-12-28T14:06:28-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Player Sprites\Rifle\Idle\survivor-idle_rifle_11.png</Source>
+      <Name>Player Sprites\Rifle\Idle\survivor-idle_rifle_11</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Player Sprites\Rifle\Idle\survivor-idle_rifle_11.xnb</Output>
+      <Time>2015-12-28T14:06:28-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Player Sprites\Rifle\Idle\survivor-idle_rifle_12.png</Source>
+      <Name>Player Sprites\Rifle\Idle\survivor-idle_rifle_12</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Player Sprites\Rifle\Idle\survivor-idle_rifle_12.xnb</Output>
+      <Time>2015-12-28T14:06:28-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Player Sprites\Rifle\Idle\survivor-idle_rifle_13.png</Source>
+      <Name>Player Sprites\Rifle\Idle\survivor-idle_rifle_13</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Player Sprites\Rifle\Idle\survivor-idle_rifle_13.xnb</Output>
+      <Time>2015-12-28T14:06:28-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Player Sprites\Rifle\Idle\survivor-idle_rifle_14.png</Source>
+      <Name>Player Sprites\Rifle\Idle\survivor-idle_rifle_14</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Player Sprites\Rifle\Idle\survivor-idle_rifle_14.xnb</Output>
+      <Time>2015-12-28T14:06:28-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Player Sprites\Rifle\Idle\survivor-idle_rifle_15.png</Source>
+      <Name>Player Sprites\Rifle\Idle\survivor-idle_rifle_15</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Player Sprites\Rifle\Idle\survivor-idle_rifle_15.xnb</Output>
+      <Time>2015-12-28T14:06:28-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Player Sprites\Rifle\Idle\survivor-idle_rifle_16.png</Source>
+      <Name>Player Sprites\Rifle\Idle\survivor-idle_rifle_16</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Player Sprites\Rifle\Idle\survivor-idle_rifle_16.xnb</Output>
+      <Time>2015-12-28T14:06:28-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Player Sprites\Rifle\Idle\survivor-idle_rifle_17.png</Source>
+      <Name>Player Sprites\Rifle\Idle\survivor-idle_rifle_17</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Player Sprites\Rifle\Idle\survivor-idle_rifle_17.xnb</Output>
+      <Time>2015-12-28T14:06:28-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Player Sprites\Rifle\Idle\survivor-idle_rifle_18.png</Source>
+      <Name>Player Sprites\Rifle\Idle\survivor-idle_rifle_18</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Player Sprites\Rifle\Idle\survivor-idle_rifle_18.xnb</Output>
+      <Time>2015-12-28T14:06:28-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Player Sprites\Rifle\Idle\survivor-idle_rifle_19.png</Source>
+      <Name>Player Sprites\Rifle\Idle\survivor-idle_rifle_19</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Player Sprites\Rifle\Idle\survivor-idle_rifle_19.xnb</Output>
+      <Time>2015-12-28T14:06:28-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Player Sprites\Rifle\Idle\survivor-idle_rifle_2.png</Source>
+      <Name>Player Sprites\Rifle\Idle\survivor-idle_rifle_2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Player Sprites\Rifle\Idle\survivor-idle_rifle_2.xnb</Output>
+      <Time>2015-12-28T14:06:28-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Player Sprites\Rifle\Idle\survivor-idle_rifle_3.png</Source>
+      <Name>Player Sprites\Rifle\Idle\survivor-idle_rifle_3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Player Sprites\Rifle\Idle\survivor-idle_rifle_3.xnb</Output>
+      <Time>2015-12-28T14:06:28-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Player Sprites\Rifle\Idle\survivor-idle_rifle_4.png</Source>
+      <Name>Player Sprites\Rifle\Idle\survivor-idle_rifle_4</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Player Sprites\Rifle\Idle\survivor-idle_rifle_4.xnb</Output>
+      <Time>2015-12-28T14:06:28-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Player Sprites\Rifle\Idle\survivor-idle_rifle_5.png</Source>
+      <Name>Player Sprites\Rifle\Idle\survivor-idle_rifle_5</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Player Sprites\Rifle\Idle\survivor-idle_rifle_5.xnb</Output>
+      <Time>2015-12-28T14:06:28-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Player Sprites\Rifle\Idle\survivor-idle_rifle_6.png</Source>
+      <Name>Player Sprites\Rifle\Idle\survivor-idle_rifle_6</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Player Sprites\Rifle\Idle\survivor-idle_rifle_6.xnb</Output>
+      <Time>2015-12-28T14:06:28-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Player Sprites\Rifle\Idle\survivor-idle_rifle_7.png</Source>
+      <Name>Player Sprites\Rifle\Idle\survivor-idle_rifle_7</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Player Sprites\Rifle\Idle\survivor-idle_rifle_7.xnb</Output>
+      <Time>2015-12-28T14:06:28-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Player Sprites\Rifle\Idle\survivor-idle_rifle_8.png</Source>
+      <Name>Player Sprites\Rifle\Idle\survivor-idle_rifle_8</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Player Sprites\Rifle\Idle\survivor-idle_rifle_8.xnb</Output>
+      <Time>2015-12-28T14:06:28-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Player Sprites\Rifle\Idle\survivor-idle_rifle_9.png</Source>
+      <Name>Player Sprites\Rifle\Idle\survivor-idle_rifle_9</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Player Sprites\Rifle\Idle\survivor-idle_rifle_9.xnb</Output>
+      <Time>2015-12-28T14:06:28-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Player Sprites\Rifle\Move\survivor-move_rifle_0.png</Source>
+      <Name>Player Sprites\Rifle\Move\survivor-move_rifle_0</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Player Sprites\Rifle\Move\survivor-move_rifle_0.xnb</Output>
+      <Time>2015-12-28T14:21:06-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Player Sprites\Rifle\Move\survivor-move_rifle_1.png</Source>
+      <Name>Player Sprites\Rifle\Move\survivor-move_rifle_1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Player Sprites\Rifle\Move\survivor-move_rifle_1.xnb</Output>
+      <Time>2015-12-28T14:21:06-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Player Sprites\Rifle\Move\survivor-move_rifle_10.png</Source>
+      <Name>Player Sprites\Rifle\Move\survivor-move_rifle_10</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Player Sprites\Rifle\Move\survivor-move_rifle_10.xnb</Output>
+      <Time>2015-12-28T14:21:06-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Player Sprites\Rifle\Move\survivor-move_rifle_11.png</Source>
+      <Name>Player Sprites\Rifle\Move\survivor-move_rifle_11</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Player Sprites\Rifle\Move\survivor-move_rifle_11.xnb</Output>
+      <Time>2015-12-28T14:21:06-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Player Sprites\Rifle\Move\survivor-move_rifle_12.png</Source>
+      <Name>Player Sprites\Rifle\Move\survivor-move_rifle_12</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Player Sprites\Rifle\Move\survivor-move_rifle_12.xnb</Output>
+      <Time>2015-12-28T14:21:06-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Player Sprites\Rifle\Move\survivor-move_rifle_13.png</Source>
+      <Name>Player Sprites\Rifle\Move\survivor-move_rifle_13</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Player Sprites\Rifle\Move\survivor-move_rifle_13.xnb</Output>
+      <Time>2015-12-28T14:21:06-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Player Sprites\Rifle\Move\survivor-move_rifle_14.png</Source>
+      <Name>Player Sprites\Rifle\Move\survivor-move_rifle_14</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Player Sprites\Rifle\Move\survivor-move_rifle_14.xnb</Output>
+      <Time>2015-12-28T14:21:06-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Player Sprites\Rifle\Move\survivor-move_rifle_15.png</Source>
+      <Name>Player Sprites\Rifle\Move\survivor-move_rifle_15</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Player Sprites\Rifle\Move\survivor-move_rifle_15.xnb</Output>
+      <Time>2015-12-28T14:21:06-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Player Sprites\Rifle\Move\survivor-move_rifle_16.png</Source>
+      <Name>Player Sprites\Rifle\Move\survivor-move_rifle_16</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Player Sprites\Rifle\Move\survivor-move_rifle_16.xnb</Output>
+      <Time>2015-12-28T14:21:06-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Player Sprites\Rifle\Move\survivor-move_rifle_17.png</Source>
+      <Name>Player Sprites\Rifle\Move\survivor-move_rifle_17</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Player Sprites\Rifle\Move\survivor-move_rifle_17.xnb</Output>
+      <Time>2015-12-28T14:21:06-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Player Sprites\Rifle\Move\survivor-move_rifle_18.png</Source>
+      <Name>Player Sprites\Rifle\Move\survivor-move_rifle_18</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Player Sprites\Rifle\Move\survivor-move_rifle_18.xnb</Output>
+      <Time>2015-12-28T14:21:06-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Player Sprites\Rifle\Move\survivor-move_rifle_19.png</Source>
+      <Name>Player Sprites\Rifle\Move\survivor-move_rifle_19</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Player Sprites\Rifle\Move\survivor-move_rifle_19.xnb</Output>
+      <Time>2015-12-28T14:21:06-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Player Sprites\Rifle\Move\survivor-move_rifle_2.png</Source>
+      <Name>Player Sprites\Rifle\Move\survivor-move_rifle_2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Player Sprites\Rifle\Move\survivor-move_rifle_2.xnb</Output>
+      <Time>2015-12-28T14:21:06-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Player Sprites\Rifle\Move\survivor-move_rifle_3.png</Source>
+      <Name>Player Sprites\Rifle\Move\survivor-move_rifle_3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Player Sprites\Rifle\Move\survivor-move_rifle_3.xnb</Output>
+      <Time>2015-12-28T14:21:06-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Player Sprites\Rifle\Move\survivor-move_rifle_4.png</Source>
+      <Name>Player Sprites\Rifle\Move\survivor-move_rifle_4</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Player Sprites\Rifle\Move\survivor-move_rifle_4.xnb</Output>
+      <Time>2015-12-28T14:21:06-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Player Sprites\Rifle\Move\survivor-move_rifle_5.png</Source>
+      <Name>Player Sprites\Rifle\Move\survivor-move_rifle_5</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Player Sprites\Rifle\Move\survivor-move_rifle_5.xnb</Output>
+      <Time>2015-12-28T14:21:06-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Player Sprites\Rifle\Move\survivor-move_rifle_6.png</Source>
+      <Name>Player Sprites\Rifle\Move\survivor-move_rifle_6</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Player Sprites\Rifle\Move\survivor-move_rifle_6.xnb</Output>
+      <Time>2015-12-28T14:21:06-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Player Sprites\Rifle\Move\survivor-move_rifle_7.png</Source>
+      <Name>Player Sprites\Rifle\Move\survivor-move_rifle_7</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Player Sprites\Rifle\Move\survivor-move_rifle_7.xnb</Output>
+      <Time>2015-12-28T14:21:06-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Player Sprites\Rifle\Move\survivor-move_rifle_8.png</Source>
+      <Name>Player Sprites\Rifle\Move\survivor-move_rifle_8</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Player Sprites\Rifle\Move\survivor-move_rifle_8.xnb</Output>
+      <Time>2015-12-28T14:21:06-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Player Sprites\Rifle\Move\survivor-move_rifle_9.png</Source>
+      <Name>Player Sprites\Rifle\Move\survivor-move_rifle_9</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Player Sprites\Rifle\Move\survivor-move_rifle_9.xnb</Output>
+      <Time>2015-12-28T14:21:06-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Player Sprites\Rifle\Reload\survivor-reload_rifle_0.png</Source>
+      <Name>Player Sprites\Rifle\Reload\survivor-reload_rifle_0</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Player Sprites\Rifle\Reload\survivor-reload_rifle_0.xnb</Output>
+      <Time>2015-12-28T14:21:18-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Player Sprites\Rifle\Reload\survivor-reload_rifle_1.png</Source>
+      <Name>Player Sprites\Rifle\Reload\survivor-reload_rifle_1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Player Sprites\Rifle\Reload\survivor-reload_rifle_1.xnb</Output>
+      <Time>2015-12-28T14:21:18-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Player Sprites\Rifle\Reload\survivor-reload_rifle_10.png</Source>
+      <Name>Player Sprites\Rifle\Reload\survivor-reload_rifle_10</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Player Sprites\Rifle\Reload\survivor-reload_rifle_10.xnb</Output>
+      <Time>2015-12-28T14:21:18-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Player Sprites\Rifle\Reload\survivor-reload_rifle_11.png</Source>
+      <Name>Player Sprites\Rifle\Reload\survivor-reload_rifle_11</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Player Sprites\Rifle\Reload\survivor-reload_rifle_11.xnb</Output>
+      <Time>2015-12-28T14:21:18-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Player Sprites\Rifle\Reload\survivor-reload_rifle_12.png</Source>
+      <Name>Player Sprites\Rifle\Reload\survivor-reload_rifle_12</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Player Sprites\Rifle\Reload\survivor-reload_rifle_12.xnb</Output>
+      <Time>2015-12-28T14:21:18-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Player Sprites\Rifle\Reload\survivor-reload_rifle_13.png</Source>
+      <Name>Player Sprites\Rifle\Reload\survivor-reload_rifle_13</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Player Sprites\Rifle\Reload\survivor-reload_rifle_13.xnb</Output>
+      <Time>2015-12-28T14:21:18-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Player Sprites\Rifle\Reload\survivor-reload_rifle_14.png</Source>
+      <Name>Player Sprites\Rifle\Reload\survivor-reload_rifle_14</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Player Sprites\Rifle\Reload\survivor-reload_rifle_14.xnb</Output>
+      <Time>2015-12-28T14:21:18-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Player Sprites\Rifle\Reload\survivor-reload_rifle_15.png</Source>
+      <Name>Player Sprites\Rifle\Reload\survivor-reload_rifle_15</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Player Sprites\Rifle\Reload\survivor-reload_rifle_15.xnb</Output>
+      <Time>2015-12-28T14:21:18-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Player Sprites\Rifle\Reload\survivor-reload_rifle_16.png</Source>
+      <Name>Player Sprites\Rifle\Reload\survivor-reload_rifle_16</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Player Sprites\Rifle\Reload\survivor-reload_rifle_16.xnb</Output>
+      <Time>2015-12-28T14:21:18-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Player Sprites\Rifle\Reload\survivor-reload_rifle_17.png</Source>
+      <Name>Player Sprites\Rifle\Reload\survivor-reload_rifle_17</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Player Sprites\Rifle\Reload\survivor-reload_rifle_17.xnb</Output>
+      <Time>2015-12-28T14:21:18-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Player Sprites\Rifle\Reload\survivor-reload_rifle_18.png</Source>
+      <Name>Player Sprites\Rifle\Reload\survivor-reload_rifle_18</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Player Sprites\Rifle\Reload\survivor-reload_rifle_18.xnb</Output>
+      <Time>2015-12-28T14:21:18-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Player Sprites\Rifle\Reload\survivor-reload_rifle_19.png</Source>
+      <Name>Player Sprites\Rifle\Reload\survivor-reload_rifle_19</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Player Sprites\Rifle\Reload\survivor-reload_rifle_19.xnb</Output>
+      <Time>2015-12-28T14:21:18-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Player Sprites\Rifle\Reload\survivor-reload_rifle_2.png</Source>
+      <Name>Player Sprites\Rifle\Reload\survivor-reload_rifle_2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Player Sprites\Rifle\Reload\survivor-reload_rifle_2.xnb</Output>
+      <Time>2015-12-28T14:21:18-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Player Sprites\Rifle\Reload\survivor-reload_rifle_3.png</Source>
+      <Name>Player Sprites\Rifle\Reload\survivor-reload_rifle_3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Player Sprites\Rifle\Reload\survivor-reload_rifle_3.xnb</Output>
+      <Time>2015-12-28T14:21:18-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Player Sprites\Rifle\Reload\survivor-reload_rifle_4.png</Source>
+      <Name>Player Sprites\Rifle\Reload\survivor-reload_rifle_4</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Player Sprites\Rifle\Reload\survivor-reload_rifle_4.xnb</Output>
+      <Time>2015-12-28T14:21:18-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Player Sprites\Rifle\Reload\survivor-reload_rifle_5.png</Source>
+      <Name>Player Sprites\Rifle\Reload\survivor-reload_rifle_5</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Player Sprites\Rifle\Reload\survivor-reload_rifle_5.xnb</Output>
+      <Time>2015-12-28T14:21:18-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Player Sprites\Rifle\Reload\survivor-reload_rifle_6.png</Source>
+      <Name>Player Sprites\Rifle\Reload\survivor-reload_rifle_6</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Player Sprites\Rifle\Reload\survivor-reload_rifle_6.xnb</Output>
+      <Time>2015-12-28T14:21:18-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Player Sprites\Rifle\Reload\survivor-reload_rifle_7.png</Source>
+      <Name>Player Sprites\Rifle\Reload\survivor-reload_rifle_7</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Player Sprites\Rifle\Reload\survivor-reload_rifle_7.xnb</Output>
+      <Time>2015-12-28T14:21:18-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Player Sprites\Rifle\Reload\survivor-reload_rifle_8.png</Source>
+      <Name>Player Sprites\Rifle\Reload\survivor-reload_rifle_8</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Player Sprites\Rifle\Reload\survivor-reload_rifle_8.xnb</Output>
+      <Time>2015-12-28T14:21:18-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Player Sprites\Rifle\Reload\survivor-reload_rifle_9.png</Source>
+      <Name>Player Sprites\Rifle\Reload\survivor-reload_rifle_9</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Player Sprites\Rifle\Reload\survivor-reload_rifle_9.xnb</Output>
+      <Time>2015-12-28T14:21:18-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Player Sprites\Rifle\Shoot\survivor-shoot_rifle_0.png</Source>
+      <Name>Player Sprites\Rifle\Shoot\survivor-shoot_rifle_0</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Player Sprites\Rifle\Shoot\survivor-shoot_rifle_0.xnb</Output>
+      <Time>2015-12-28T14:21:28-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Player Sprites\Rifle\Shoot\survivor-shoot_rifle_1.png</Source>
+      <Name>Player Sprites\Rifle\Shoot\survivor-shoot_rifle_1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Player Sprites\Rifle\Shoot\survivor-shoot_rifle_1.xnb</Output>
+      <Time>2015-12-28T14:21:28-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Player Sprites\Rifle\Shoot\survivor-shoot_rifle_2.png</Source>
+      <Name>Player Sprites\Rifle\Shoot\survivor-shoot_rifle_2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Player Sprites\Rifle\Shoot\survivor-shoot_rifle_2.xnb</Output>
+      <Time>2015-12-28T14:21:28-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Player Sprites\Shotgun\Idle\survivor-idle_shotgun_0.png</Source>
+      <Name>Player Sprites\Shotgun\Idle\survivor-idle_shotgun_0</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Player Sprites\Shotgun\Idle\survivor-idle_shotgun_0.xnb</Output>
+      <Time>2015-12-28T14:21:46-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Player Sprites\Shotgun\Idle\survivor-idle_shotgun_1.png</Source>
+      <Name>Player Sprites\Shotgun\Idle\survivor-idle_shotgun_1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Player Sprites\Shotgun\Idle\survivor-idle_shotgun_1.xnb</Output>
+      <Time>2015-12-28T14:21:46-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Player Sprites\Shotgun\Idle\survivor-idle_shotgun_10.png</Source>
+      <Name>Player Sprites\Shotgun\Idle\survivor-idle_shotgun_10</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Player Sprites\Shotgun\Idle\survivor-idle_shotgun_10.xnb</Output>
+      <Time>2015-12-28T14:21:46-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Player Sprites\Shotgun\Idle\survivor-idle_shotgun_11.png</Source>
+      <Name>Player Sprites\Shotgun\Idle\survivor-idle_shotgun_11</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Player Sprites\Shotgun\Idle\survivor-idle_shotgun_11.xnb</Output>
+      <Time>2015-12-28T14:21:46-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Player Sprites\Shotgun\Idle\survivor-idle_shotgun_12.png</Source>
+      <Name>Player Sprites\Shotgun\Idle\survivor-idle_shotgun_12</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Player Sprites\Shotgun\Idle\survivor-idle_shotgun_12.xnb</Output>
+      <Time>2015-12-28T14:21:46-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Player Sprites\Shotgun\Idle\survivor-idle_shotgun_13.png</Source>
+      <Name>Player Sprites\Shotgun\Idle\survivor-idle_shotgun_13</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Player Sprites\Shotgun\Idle\survivor-idle_shotgun_13.xnb</Output>
+      <Time>2015-12-28T14:21:46-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Player Sprites\Shotgun\Idle\survivor-idle_shotgun_14.png</Source>
+      <Name>Player Sprites\Shotgun\Idle\survivor-idle_shotgun_14</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Player Sprites\Shotgun\Idle\survivor-idle_shotgun_14.xnb</Output>
+      <Time>2015-12-28T14:21:46-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Player Sprites\Shotgun\Idle\survivor-idle_shotgun_15.png</Source>
+      <Name>Player Sprites\Shotgun\Idle\survivor-idle_shotgun_15</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Player Sprites\Shotgun\Idle\survivor-idle_shotgun_15.xnb</Output>
+      <Time>2015-12-28T14:21:46-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Player Sprites\Shotgun\Idle\survivor-idle_shotgun_16.png</Source>
+      <Name>Player Sprites\Shotgun\Idle\survivor-idle_shotgun_16</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Player Sprites\Shotgun\Idle\survivor-idle_shotgun_16.xnb</Output>
+      <Time>2015-12-28T14:21:46-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Player Sprites\Shotgun\Idle\survivor-idle_shotgun_17.png</Source>
+      <Name>Player Sprites\Shotgun\Idle\survivor-idle_shotgun_17</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Player Sprites\Shotgun\Idle\survivor-idle_shotgun_17.xnb</Output>
+      <Time>2015-12-28T14:21:46-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Player Sprites\Shotgun\Idle\survivor-idle_shotgun_18.png</Source>
+      <Name>Player Sprites\Shotgun\Idle\survivor-idle_shotgun_18</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Player Sprites\Shotgun\Idle\survivor-idle_shotgun_18.xnb</Output>
+      <Time>2015-12-28T14:21:46-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Player Sprites\Shotgun\Idle\survivor-idle_shotgun_19.png</Source>
+      <Name>Player Sprites\Shotgun\Idle\survivor-idle_shotgun_19</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Player Sprites\Shotgun\Idle\survivor-idle_shotgun_19.xnb</Output>
+      <Time>2015-12-28T14:21:46-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Player Sprites\Shotgun\Idle\survivor-idle_shotgun_2.png</Source>
+      <Name>Player Sprites\Shotgun\Idle\survivor-idle_shotgun_2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Player Sprites\Shotgun\Idle\survivor-idle_shotgun_2.xnb</Output>
+      <Time>2015-12-28T14:21:46-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Player Sprites\Shotgun\Idle\survivor-idle_shotgun_3.png</Source>
+      <Name>Player Sprites\Shotgun\Idle\survivor-idle_shotgun_3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Player Sprites\Shotgun\Idle\survivor-idle_shotgun_3.xnb</Output>
+      <Time>2015-12-28T14:21:46-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Player Sprites\Shotgun\Idle\survivor-idle_shotgun_4.png</Source>
+      <Name>Player Sprites\Shotgun\Idle\survivor-idle_shotgun_4</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Player Sprites\Shotgun\Idle\survivor-idle_shotgun_4.xnb</Output>
+      <Time>2015-12-28T14:21:46-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Player Sprites\Shotgun\Idle\survivor-idle_shotgun_5.png</Source>
+      <Name>Player Sprites\Shotgun\Idle\survivor-idle_shotgun_5</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Player Sprites\Shotgun\Idle\survivor-idle_shotgun_5.xnb</Output>
+      <Time>2015-12-28T14:21:46-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Player Sprites\Shotgun\Idle\survivor-idle_shotgun_6.png</Source>
+      <Name>Player Sprites\Shotgun\Idle\survivor-idle_shotgun_6</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Player Sprites\Shotgun\Idle\survivor-idle_shotgun_6.xnb</Output>
+      <Time>2015-12-28T14:21:46-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Player Sprites\Shotgun\Idle\survivor-idle_shotgun_7.png</Source>
+      <Name>Player Sprites\Shotgun\Idle\survivor-idle_shotgun_7</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Player Sprites\Shotgun\Idle\survivor-idle_shotgun_7.xnb</Output>
+      <Time>2015-12-28T14:21:46-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Player Sprites\Shotgun\Idle\survivor-idle_shotgun_8.png</Source>
+      <Name>Player Sprites\Shotgun\Idle\survivor-idle_shotgun_8</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Player Sprites\Shotgun\Idle\survivor-idle_shotgun_8.xnb</Output>
+      <Time>2015-12-28T14:21:46-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Player Sprites\Shotgun\Idle\survivor-idle_shotgun_9.png</Source>
+      <Name>Player Sprites\Shotgun\Idle\survivor-idle_shotgun_9</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Player Sprites\Shotgun\Idle\survivor-idle_shotgun_9.xnb</Output>
+      <Time>2015-12-28T14:21:46-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Player Sprites\Shotgun\Move\survivor-move_shotgun_0.png</Source>
+      <Name>Player Sprites\Shotgun\Move\survivor-move_shotgun_0</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Player Sprites\Shotgun\Move\survivor-move_shotgun_0.xnb</Output>
+      <Time>2015-12-28T14:22:02-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Player Sprites\Shotgun\Move\survivor-move_shotgun_1.png</Source>
+      <Name>Player Sprites\Shotgun\Move\survivor-move_shotgun_1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Player Sprites\Shotgun\Move\survivor-move_shotgun_1.xnb</Output>
+      <Time>2015-12-28T14:22:02-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Player Sprites\Shotgun\Move\survivor-move_shotgun_10.png</Source>
+      <Name>Player Sprites\Shotgun\Move\survivor-move_shotgun_10</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Player Sprites\Shotgun\Move\survivor-move_shotgun_10.xnb</Output>
+      <Time>2015-12-28T14:22:02-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Player Sprites\Shotgun\Move\survivor-move_shotgun_11.png</Source>
+      <Name>Player Sprites\Shotgun\Move\survivor-move_shotgun_11</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Player Sprites\Shotgun\Move\survivor-move_shotgun_11.xnb</Output>
+      <Time>2015-12-28T14:22:02-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Player Sprites\Shotgun\Move\survivor-move_shotgun_12.png</Source>
+      <Name>Player Sprites\Shotgun\Move\survivor-move_shotgun_12</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Player Sprites\Shotgun\Move\survivor-move_shotgun_12.xnb</Output>
+      <Time>2015-12-28T14:22:02-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Player Sprites\Shotgun\Move\survivor-move_shotgun_13.png</Source>
+      <Name>Player Sprites\Shotgun\Move\survivor-move_shotgun_13</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Player Sprites\Shotgun\Move\survivor-move_shotgun_13.xnb</Output>
+      <Time>2015-12-28T14:22:02-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Player Sprites\Shotgun\Move\survivor-move_shotgun_14.png</Source>
+      <Name>Player Sprites\Shotgun\Move\survivor-move_shotgun_14</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Player Sprites\Shotgun\Move\survivor-move_shotgun_14.xnb</Output>
+      <Time>2015-12-28T14:22:02-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Player Sprites\Shotgun\Move\survivor-move_shotgun_15.png</Source>
+      <Name>Player Sprites\Shotgun\Move\survivor-move_shotgun_15</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Player Sprites\Shotgun\Move\survivor-move_shotgun_15.xnb</Output>
+      <Time>2015-12-28T14:22:02-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Player Sprites\Shotgun\Move\survivor-move_shotgun_16.png</Source>
+      <Name>Player Sprites\Shotgun\Move\survivor-move_shotgun_16</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Player Sprites\Shotgun\Move\survivor-move_shotgun_16.xnb</Output>
+      <Time>2015-12-28T14:22:02-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Player Sprites\Shotgun\Move\survivor-move_shotgun_17.png</Source>
+      <Name>Player Sprites\Shotgun\Move\survivor-move_shotgun_17</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Player Sprites\Shotgun\Move\survivor-move_shotgun_17.xnb</Output>
+      <Time>2015-12-28T14:22:02-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Player Sprites\Shotgun\Move\survivor-move_shotgun_18.png</Source>
+      <Name>Player Sprites\Shotgun\Move\survivor-move_shotgun_18</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Player Sprites\Shotgun\Move\survivor-move_shotgun_18.xnb</Output>
+      <Time>2015-12-28T14:22:02-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Player Sprites\Shotgun\Move\survivor-move_shotgun_19.png</Source>
+      <Name>Player Sprites\Shotgun\Move\survivor-move_shotgun_19</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Player Sprites\Shotgun\Move\survivor-move_shotgun_19.xnb</Output>
+      <Time>2015-12-28T14:22:02-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Player Sprites\Shotgun\Move\survivor-move_shotgun_2.png</Source>
+      <Name>Player Sprites\Shotgun\Move\survivor-move_shotgun_2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Player Sprites\Shotgun\Move\survivor-move_shotgun_2.xnb</Output>
+      <Time>2015-12-28T14:22:02-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Player Sprites\Shotgun\Move\survivor-move_shotgun_3.png</Source>
+      <Name>Player Sprites\Shotgun\Move\survivor-move_shotgun_3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Player Sprites\Shotgun\Move\survivor-move_shotgun_3.xnb</Output>
+      <Time>2015-12-28T14:22:02-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Player Sprites\Shotgun\Move\survivor-move_shotgun_4.png</Source>
+      <Name>Player Sprites\Shotgun\Move\survivor-move_shotgun_4</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Player Sprites\Shotgun\Move\survivor-move_shotgun_4.xnb</Output>
+      <Time>2015-12-28T14:22:02-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Player Sprites\Shotgun\Move\survivor-move_shotgun_5.png</Source>
+      <Name>Player Sprites\Shotgun\Move\survivor-move_shotgun_5</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Player Sprites\Shotgun\Move\survivor-move_shotgun_5.xnb</Output>
+      <Time>2015-12-28T14:22:02-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Player Sprites\Shotgun\Move\survivor-move_shotgun_6.png</Source>
+      <Name>Player Sprites\Shotgun\Move\survivor-move_shotgun_6</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Player Sprites\Shotgun\Move\survivor-move_shotgun_6.xnb</Output>
+      <Time>2015-12-28T14:22:02-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Player Sprites\Shotgun\Move\survivor-move_shotgun_7.png</Source>
+      <Name>Player Sprites\Shotgun\Move\survivor-move_shotgun_7</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Player Sprites\Shotgun\Move\survivor-move_shotgun_7.xnb</Output>
+      <Time>2015-12-28T14:22:02-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Player Sprites\Shotgun\Move\survivor-move_shotgun_8.png</Source>
+      <Name>Player Sprites\Shotgun\Move\survivor-move_shotgun_8</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Player Sprites\Shotgun\Move\survivor-move_shotgun_8.xnb</Output>
+      <Time>2015-12-28T14:22:02-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Player Sprites\Shotgun\Move\survivor-move_shotgun_9.png</Source>
+      <Name>Player Sprites\Shotgun\Move\survivor-move_shotgun_9</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Player Sprites\Shotgun\Move\survivor-move_shotgun_9.xnb</Output>
+      <Time>2015-12-28T14:22:02-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Player Sprites\Shotgun\Reload\survivor-reload_shotgun_0.png</Source>
+      <Name>Player Sprites\Shotgun\Reload\survivor-reload_shotgun_0</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Player Sprites\Shotgun\Reload\survivor-reload_shotgun_0.xnb</Output>
+      <Time>2015-12-28T14:22:12-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Player Sprites\Shotgun\Reload\survivor-reload_shotgun_1.png</Source>
+      <Name>Player Sprites\Shotgun\Reload\survivor-reload_shotgun_1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Player Sprites\Shotgun\Reload\survivor-reload_shotgun_1.xnb</Output>
+      <Time>2015-12-28T14:22:12-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Player Sprites\Shotgun\Reload\survivor-reload_shotgun_10.png</Source>
+      <Name>Player Sprites\Shotgun\Reload\survivor-reload_shotgun_10</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Player Sprites\Shotgun\Reload\survivor-reload_shotgun_10.xnb</Output>
+      <Time>2015-12-28T14:22:12-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Player Sprites\Shotgun\Reload\survivor-reload_shotgun_11.png</Source>
+      <Name>Player Sprites\Shotgun\Reload\survivor-reload_shotgun_11</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Player Sprites\Shotgun\Reload\survivor-reload_shotgun_11.xnb</Output>
+      <Time>2015-12-28T14:22:12-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Player Sprites\Shotgun\Reload\survivor-reload_shotgun_12.png</Source>
+      <Name>Player Sprites\Shotgun\Reload\survivor-reload_shotgun_12</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Player Sprites\Shotgun\Reload\survivor-reload_shotgun_12.xnb</Output>
+      <Time>2015-12-28T14:22:12-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Player Sprites\Shotgun\Reload\survivor-reload_shotgun_13.png</Source>
+      <Name>Player Sprites\Shotgun\Reload\survivor-reload_shotgun_13</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Player Sprites\Shotgun\Reload\survivor-reload_shotgun_13.xnb</Output>
+      <Time>2015-12-28T14:22:12-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Player Sprites\Shotgun\Reload\survivor-reload_shotgun_14.png</Source>
+      <Name>Player Sprites\Shotgun\Reload\survivor-reload_shotgun_14</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Player Sprites\Shotgun\Reload\survivor-reload_shotgun_14.xnb</Output>
+      <Time>2015-12-28T14:22:12-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Player Sprites\Shotgun\Reload\survivor-reload_shotgun_15.png</Source>
+      <Name>Player Sprites\Shotgun\Reload\survivor-reload_shotgun_15</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Player Sprites\Shotgun\Reload\survivor-reload_shotgun_15.xnb</Output>
+      <Time>2015-12-28T14:22:12-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Player Sprites\Shotgun\Reload\survivor-reload_shotgun_16.png</Source>
+      <Name>Player Sprites\Shotgun\Reload\survivor-reload_shotgun_16</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Player Sprites\Shotgun\Reload\survivor-reload_shotgun_16.xnb</Output>
+      <Time>2015-12-28T14:22:12-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Player Sprites\Shotgun\Reload\survivor-reload_shotgun_17.png</Source>
+      <Name>Player Sprites\Shotgun\Reload\survivor-reload_shotgun_17</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Player Sprites\Shotgun\Reload\survivor-reload_shotgun_17.xnb</Output>
+      <Time>2015-12-28T14:22:12-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Player Sprites\Shotgun\Reload\survivor-reload_shotgun_18.png</Source>
+      <Name>Player Sprites\Shotgun\Reload\survivor-reload_shotgun_18</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Player Sprites\Shotgun\Reload\survivor-reload_shotgun_18.xnb</Output>
+      <Time>2015-12-28T14:22:12-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Player Sprites\Shotgun\Reload\survivor-reload_shotgun_19.png</Source>
+      <Name>Player Sprites\Shotgun\Reload\survivor-reload_shotgun_19</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Player Sprites\Shotgun\Reload\survivor-reload_shotgun_19.xnb</Output>
+      <Time>2015-12-28T14:22:12-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Player Sprites\Shotgun\Reload\survivor-reload_shotgun_2.png</Source>
+      <Name>Player Sprites\Shotgun\Reload\survivor-reload_shotgun_2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Player Sprites\Shotgun\Reload\survivor-reload_shotgun_2.xnb</Output>
+      <Time>2015-12-28T14:22:12-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Player Sprites\Shotgun\Reload\survivor-reload_shotgun_3.png</Source>
+      <Name>Player Sprites\Shotgun\Reload\survivor-reload_shotgun_3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Player Sprites\Shotgun\Reload\survivor-reload_shotgun_3.xnb</Output>
+      <Time>2015-12-28T14:22:12-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Player Sprites\Shotgun\Reload\survivor-reload_shotgun_4.png</Source>
+      <Name>Player Sprites\Shotgun\Reload\survivor-reload_shotgun_4</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Player Sprites\Shotgun\Reload\survivor-reload_shotgun_4.xnb</Output>
+      <Time>2015-12-28T14:22:12-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Player Sprites\Shotgun\Reload\survivor-reload_shotgun_5.png</Source>
+      <Name>Player Sprites\Shotgun\Reload\survivor-reload_shotgun_5</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Player Sprites\Shotgun\Reload\survivor-reload_shotgun_5.xnb</Output>
+      <Time>2015-12-28T14:22:12-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Player Sprites\Shotgun\Reload\survivor-reload_shotgun_6.png</Source>
+      <Name>Player Sprites\Shotgun\Reload\survivor-reload_shotgun_6</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Player Sprites\Shotgun\Reload\survivor-reload_shotgun_6.xnb</Output>
+      <Time>2015-12-28T14:22:12-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Player Sprites\Shotgun\Reload\survivor-reload_shotgun_7.png</Source>
+      <Name>Player Sprites\Shotgun\Reload\survivor-reload_shotgun_7</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Player Sprites\Shotgun\Reload\survivor-reload_shotgun_7.xnb</Output>
+      <Time>2015-12-28T14:22:12-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Player Sprites\Shotgun\Reload\survivor-reload_shotgun_8.png</Source>
+      <Name>Player Sprites\Shotgun\Reload\survivor-reload_shotgun_8</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Player Sprites\Shotgun\Reload\survivor-reload_shotgun_8.xnb</Output>
+      <Time>2015-12-28T14:22:12-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Player Sprites\Shotgun\Reload\survivor-reload_shotgun_9.png</Source>
+      <Name>Player Sprites\Shotgun\Reload\survivor-reload_shotgun_9</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Player Sprites\Shotgun\Reload\survivor-reload_shotgun_9.xnb</Output>
+      <Time>2015-12-28T14:22:12-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Player Sprites\Shotgun\Shoot\survivor-shoot_shotgun_0.png</Source>
+      <Name>Player Sprites\Shotgun\Shoot\survivor-shoot_shotgun_0</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Player Sprites\Shotgun\Shoot\survivor-shoot_shotgun_0.xnb</Output>
+      <Time>2015-12-28T14:22:24-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Player Sprites\Shotgun\Shoot\survivor-shoot_shotgun_1.png</Source>
+      <Name>Player Sprites\Shotgun\Shoot\survivor-shoot_shotgun_1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Player Sprites\Shotgun\Shoot\survivor-shoot_shotgun_1.xnb</Output>
+      <Time>2015-12-28T14:22:24-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Player Sprites\Shotgun\Shoot\survivor-shoot_shotgun_2.png</Source>
+      <Name>Player Sprites\Shotgun\Shoot\survivor-shoot_shotgun_2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Player Sprites\Shotgun\Shoot\survivor-shoot_shotgun_2.xnb</Output>
+      <Time>2015-12-28T14:22:24-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Player Sprites\Throwing Knife\Idle\survivor-idle_knife_0.png</Source>
+      <Name>Player Sprites\Throwing Knife\Idle\survivor-idle_knife_0</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Player Sprites\Throwing Knife\Idle\survivor-idle_knife_0.xnb</Output>
+      <Time>2015-12-28T14:23:12-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Player Sprites\Throwing Knife\Idle\survivor-idle_knife_1.png</Source>
+      <Name>Player Sprites\Throwing Knife\Idle\survivor-idle_knife_1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Player Sprites\Throwing Knife\Idle\survivor-idle_knife_1.xnb</Output>
+      <Time>2015-12-28T14:23:14-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Player Sprites\Throwing Knife\Idle\survivor-idle_knife_10.png</Source>
+      <Name>Player Sprites\Throwing Knife\Idle\survivor-idle_knife_10</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Player Sprites\Throwing Knife\Idle\survivor-idle_knife_10.xnb</Output>
+      <Time>2015-12-28T14:23:14-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Player Sprites\Throwing Knife\Idle\survivor-idle_knife_11.png</Source>
+      <Name>Player Sprites\Throwing Knife\Idle\survivor-idle_knife_11</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Player Sprites\Throwing Knife\Idle\survivor-idle_knife_11.xnb</Output>
+      <Time>2015-12-28T14:23:14-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Player Sprites\Throwing Knife\Idle\survivor-idle_knife_12.png</Source>
+      <Name>Player Sprites\Throwing Knife\Idle\survivor-idle_knife_12</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Player Sprites\Throwing Knife\Idle\survivor-idle_knife_12.xnb</Output>
+      <Time>2015-12-28T14:23:14-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Player Sprites\Throwing Knife\Idle\survivor-idle_knife_13.png</Source>
+      <Name>Player Sprites\Throwing Knife\Idle\survivor-idle_knife_13</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Player Sprites\Throwing Knife\Idle\survivor-idle_knife_13.xnb</Output>
+      <Time>2015-12-28T14:23:14-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Player Sprites\Throwing Knife\Idle\survivor-idle_knife_14.png</Source>
+      <Name>Player Sprites\Throwing Knife\Idle\survivor-idle_knife_14</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Player Sprites\Throwing Knife\Idle\survivor-idle_knife_14.xnb</Output>
+      <Time>2015-12-28T14:23:14-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Player Sprites\Throwing Knife\Idle\survivor-idle_knife_15.png</Source>
+      <Name>Player Sprites\Throwing Knife\Idle\survivor-idle_knife_15</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Player Sprites\Throwing Knife\Idle\survivor-idle_knife_15.xnb</Output>
+      <Time>2015-12-28T14:23:14-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Player Sprites\Throwing Knife\Idle\survivor-idle_knife_16.png</Source>
+      <Name>Player Sprites\Throwing Knife\Idle\survivor-idle_knife_16</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Player Sprites\Throwing Knife\Idle\survivor-idle_knife_16.xnb</Output>
+      <Time>2015-12-28T14:23:14-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Player Sprites\Throwing Knife\Idle\survivor-idle_knife_17.png</Source>
+      <Name>Player Sprites\Throwing Knife\Idle\survivor-idle_knife_17</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Player Sprites\Throwing Knife\Idle\survivor-idle_knife_17.xnb</Output>
+      <Time>2015-12-28T14:23:14-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Player Sprites\Throwing Knife\Idle\survivor-idle_knife_18.png</Source>
+      <Name>Player Sprites\Throwing Knife\Idle\survivor-idle_knife_18</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Player Sprites\Throwing Knife\Idle\survivor-idle_knife_18.xnb</Output>
+      <Time>2015-12-28T14:23:14-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Player Sprites\Throwing Knife\Idle\survivor-idle_knife_19.png</Source>
+      <Name>Player Sprites\Throwing Knife\Idle\survivor-idle_knife_19</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Player Sprites\Throwing Knife\Idle\survivor-idle_knife_19.xnb</Output>
+      <Time>2015-12-28T14:23:12-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Player Sprites\Throwing Knife\Idle\survivor-idle_knife_2.png</Source>
+      <Name>Player Sprites\Throwing Knife\Idle\survivor-idle_knife_2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Player Sprites\Throwing Knife\Idle\survivor-idle_knife_2.xnb</Output>
+      <Time>2015-12-28T14:23:14-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Player Sprites\Throwing Knife\Idle\survivor-idle_knife_3.png</Source>
+      <Name>Player Sprites\Throwing Knife\Idle\survivor-idle_knife_3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Player Sprites\Throwing Knife\Idle\survivor-idle_knife_3.xnb</Output>
+      <Time>2015-12-28T14:23:14-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Player Sprites\Throwing Knife\Idle\survivor-idle_knife_4.png</Source>
+      <Name>Player Sprites\Throwing Knife\Idle\survivor-idle_knife_4</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Player Sprites\Throwing Knife\Idle\survivor-idle_knife_4.xnb</Output>
+      <Time>2015-12-28T14:23:14-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Player Sprites\Throwing Knife\Idle\survivor-idle_knife_5.png</Source>
+      <Name>Player Sprites\Throwing Knife\Idle\survivor-idle_knife_5</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Player Sprites\Throwing Knife\Idle\survivor-idle_knife_5.xnb</Output>
+      <Time>2015-12-28T14:23:14-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Player Sprites\Throwing Knife\Idle\survivor-idle_knife_6.png</Source>
+      <Name>Player Sprites\Throwing Knife\Idle\survivor-idle_knife_6</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Player Sprites\Throwing Knife\Idle\survivor-idle_knife_6.xnb</Output>
+      <Time>2015-12-28T14:23:14-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Player Sprites\Throwing Knife\Idle\survivor-idle_knife_7.png</Source>
+      <Name>Player Sprites\Throwing Knife\Idle\survivor-idle_knife_7</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Player Sprites\Throwing Knife\Idle\survivor-idle_knife_7.xnb</Output>
+      <Time>2015-12-28T14:23:14-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Player Sprites\Throwing Knife\Idle\survivor-idle_knife_8.png</Source>
+      <Name>Player Sprites\Throwing Knife\Idle\survivor-idle_knife_8</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Player Sprites\Throwing Knife\Idle\survivor-idle_knife_8.xnb</Output>
+      <Time>2015-12-28T14:23:14-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Player Sprites\Throwing Knife\Idle\survivor-idle_knife_9.png</Source>
+      <Name>Player Sprites\Throwing Knife\Idle\survivor-idle_knife_9</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Player Sprites\Throwing Knife\Idle\survivor-idle_knife_9.xnb</Output>
+      <Time>2015-12-28T14:23:14-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Player Sprites\Throwing Knife\Move\survivor-move_knife_0.png</Source>
+      <Name>Player Sprites\Throwing Knife\Move\survivor-move_knife_0</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Player Sprites\Throwing Knife\Move\survivor-move_knife_0.xnb</Output>
+      <Time>2015-12-28T14:23:30-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Player Sprites\Throwing Knife\Move\survivor-move_knife_1.png</Source>
+      <Name>Player Sprites\Throwing Knife\Move\survivor-move_knife_1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Player Sprites\Throwing Knife\Move\survivor-move_knife_1.xnb</Output>
+      <Time>2015-12-28T14:23:30-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Player Sprites\Throwing Knife\Move\survivor-move_knife_10.png</Source>
+      <Name>Player Sprites\Throwing Knife\Move\survivor-move_knife_10</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Player Sprites\Throwing Knife\Move\survivor-move_knife_10.xnb</Output>
+      <Time>2015-12-28T14:23:30-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Player Sprites\Throwing Knife\Move\survivor-move_knife_11.png</Source>
+      <Name>Player Sprites\Throwing Knife\Move\survivor-move_knife_11</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Player Sprites\Throwing Knife\Move\survivor-move_knife_11.xnb</Output>
+      <Time>2015-12-28T14:23:30-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Player Sprites\Throwing Knife\Move\survivor-move_knife_12.png</Source>
+      <Name>Player Sprites\Throwing Knife\Move\survivor-move_knife_12</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Player Sprites\Throwing Knife\Move\survivor-move_knife_12.xnb</Output>
+      <Time>2015-12-28T14:23:30-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Player Sprites\Throwing Knife\Move\survivor-move_knife_13.png</Source>
+      <Name>Player Sprites\Throwing Knife\Move\survivor-move_knife_13</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Player Sprites\Throwing Knife\Move\survivor-move_knife_13.xnb</Output>
+      <Time>2015-12-28T14:23:30-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Player Sprites\Throwing Knife\Move\survivor-move_knife_14.png</Source>
+      <Name>Player Sprites\Throwing Knife\Move\survivor-move_knife_14</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Player Sprites\Throwing Knife\Move\survivor-move_knife_14.xnb</Output>
+      <Time>2015-12-28T14:23:30-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Player Sprites\Throwing Knife\Move\survivor-move_knife_15.png</Source>
+      <Name>Player Sprites\Throwing Knife\Move\survivor-move_knife_15</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Player Sprites\Throwing Knife\Move\survivor-move_knife_15.xnb</Output>
+      <Time>2015-12-28T14:23:30-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Player Sprites\Throwing Knife\Move\survivor-move_knife_16.png</Source>
+      <Name>Player Sprites\Throwing Knife\Move\survivor-move_knife_16</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Player Sprites\Throwing Knife\Move\survivor-move_knife_16.xnb</Output>
+      <Time>2015-12-28T14:23:30-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Player Sprites\Throwing Knife\Move\survivor-move_knife_17.png</Source>
+      <Name>Player Sprites\Throwing Knife\Move\survivor-move_knife_17</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Player Sprites\Throwing Knife\Move\survivor-move_knife_17.xnb</Output>
+      <Time>2015-12-28T14:23:30-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Player Sprites\Throwing Knife\Move\survivor-move_knife_18.png</Source>
+      <Name>Player Sprites\Throwing Knife\Move\survivor-move_knife_18</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Player Sprites\Throwing Knife\Move\survivor-move_knife_18.xnb</Output>
+      <Time>2015-12-28T14:23:30-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Player Sprites\Throwing Knife\Move\survivor-move_knife_19.png</Source>
+      <Name>Player Sprites\Throwing Knife\Move\survivor-move_knife_19</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Player Sprites\Throwing Knife\Move\survivor-move_knife_19.xnb</Output>
+      <Time>2015-12-28T14:23:30-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Player Sprites\Throwing Knife\Move\survivor-move_knife_2.png</Source>
+      <Name>Player Sprites\Throwing Knife\Move\survivor-move_knife_2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Player Sprites\Throwing Knife\Move\survivor-move_knife_2.xnb</Output>
+      <Time>2015-12-28T14:23:30-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Player Sprites\Throwing Knife\Move\survivor-move_knife_3.png</Source>
+      <Name>Player Sprites\Throwing Knife\Move\survivor-move_knife_3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Player Sprites\Throwing Knife\Move\survivor-move_knife_3.xnb</Output>
+      <Time>2015-12-28T14:23:30-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Player Sprites\Throwing Knife\Move\survivor-move_knife_4.png</Source>
+      <Name>Player Sprites\Throwing Knife\Move\survivor-move_knife_4</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Player Sprites\Throwing Knife\Move\survivor-move_knife_4.xnb</Output>
+      <Time>2015-12-28T14:23:30-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Player Sprites\Throwing Knife\Move\survivor-move_knife_5.png</Source>
+      <Name>Player Sprites\Throwing Knife\Move\survivor-move_knife_5</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Player Sprites\Throwing Knife\Move\survivor-move_knife_5.xnb</Output>
+      <Time>2015-12-28T14:23:30-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Player Sprites\Throwing Knife\Move\survivor-move_knife_6.png</Source>
+      <Name>Player Sprites\Throwing Knife\Move\survivor-move_knife_6</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Player Sprites\Throwing Knife\Move\survivor-move_knife_6.xnb</Output>
+      <Time>2015-12-28T14:23:30-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Player Sprites\Throwing Knife\Move\survivor-move_knife_7.png</Source>
+      <Name>Player Sprites\Throwing Knife\Move\survivor-move_knife_7</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Player Sprites\Throwing Knife\Move\survivor-move_knife_7.xnb</Output>
+      <Time>2015-12-28T14:23:30-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Player Sprites\Throwing Knife\Move\survivor-move_knife_8.png</Source>
+      <Name>Player Sprites\Throwing Knife\Move\survivor-move_knife_8</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Player Sprites\Throwing Knife\Move\survivor-move_knife_8.xnb</Output>
+      <Time>2015-12-28T14:23:30-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Player Sprites\Throwing Knife\Move\survivor-move_knife_9.png</Source>
+      <Name>Player Sprites\Throwing Knife\Move\survivor-move_knife_9</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Player Sprites\Throwing Knife\Move\survivor-move_knife_9.xnb</Output>
+      <Time>2015-12-28T14:23:30-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Player Sprites\Throwing Knife\Throw\survivor-throw_knife_0.png</Source>
+      <Name>Player Sprites\Throwing Knife\Throw\survivor-throw_knife_0</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Player Sprites\Throwing Knife\Throw\survivor-throw_knife_0.xnb</Output>
+      <Time>2015-12-28T14:23:52-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Player Sprites\Throwing Knife\Throw\survivor-throw_knife_1.png</Source>
+      <Name>Player Sprites\Throwing Knife\Throw\survivor-throw_knife_1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Player Sprites\Throwing Knife\Throw\survivor-throw_knife_1.xnb</Output>
+      <Time>2015-12-28T14:23:52-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Player Sprites\Throwing Knife\Throw\survivor-throw_knife_10.png</Source>
+      <Name>Player Sprites\Throwing Knife\Throw\survivor-throw_knife_10</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Player Sprites\Throwing Knife\Throw\survivor-throw_knife_10.xnb</Output>
+      <Time>2015-12-28T14:23:52-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Player Sprites\Throwing Knife\Throw\survivor-throw_knife_11.png</Source>
+      <Name>Player Sprites\Throwing Knife\Throw\survivor-throw_knife_11</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Player Sprites\Throwing Knife\Throw\survivor-throw_knife_11.xnb</Output>
+      <Time>2015-12-28T14:23:52-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Player Sprites\Throwing Knife\Throw\survivor-throw_knife_12.png</Source>
+      <Name>Player Sprites\Throwing Knife\Throw\survivor-throw_knife_12</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Player Sprites\Throwing Knife\Throw\survivor-throw_knife_12.xnb</Output>
+      <Time>2015-12-28T14:23:52-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Player Sprites\Throwing Knife\Throw\survivor-throw_knife_13.png</Source>
+      <Name>Player Sprites\Throwing Knife\Throw\survivor-throw_knife_13</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Player Sprites\Throwing Knife\Throw\survivor-throw_knife_13.xnb</Output>
+      <Time>2015-12-28T14:23:52-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Player Sprites\Throwing Knife\Throw\survivor-throw_knife_14.png</Source>
+      <Name>Player Sprites\Throwing Knife\Throw\survivor-throw_knife_14</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Player Sprites\Throwing Knife\Throw\survivor-throw_knife_14.xnb</Output>
+      <Time>2015-12-28T14:23:52-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Player Sprites\Throwing Knife\Throw\survivor-throw_knife_15.png</Source>
+      <Name>Player Sprites\Throwing Knife\Throw\survivor-throw_knife_15</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Player Sprites\Throwing Knife\Throw\survivor-throw_knife_15.xnb</Output>
+      <Time>2015-12-28T14:23:52-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Player Sprites\Throwing Knife\Throw\survivor-throw_knife_16.png</Source>
+      <Name>Player Sprites\Throwing Knife\Throw\survivor-throw_knife_16</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Player Sprites\Throwing Knife\Throw\survivor-throw_knife_16.xnb</Output>
+      <Time>2015-12-28T14:23:52-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Player Sprites\Throwing Knife\Throw\survivor-throw_knife_17.png</Source>
+      <Name>Player Sprites\Throwing Knife\Throw\survivor-throw_knife_17</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Player Sprites\Throwing Knife\Throw\survivor-throw_knife_17.xnb</Output>
+      <Time>2015-12-28T14:23:52-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Player Sprites\Throwing Knife\Throw\survivor-throw_knife_18.png</Source>
+      <Name>Player Sprites\Throwing Knife\Throw\survivor-throw_knife_18</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Player Sprites\Throwing Knife\Throw\survivor-throw_knife_18.xnb</Output>
+      <Time>2015-12-28T14:23:52-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Player Sprites\Throwing Knife\Throw\survivor-throw_knife_19.png</Source>
+      <Name>Player Sprites\Throwing Knife\Throw\survivor-throw_knife_19</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Player Sprites\Throwing Knife\Throw\survivor-throw_knife_19.xnb</Output>
+      <Time>2015-12-28T14:23:52-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Player Sprites\Throwing Knife\Throw\survivor-throw_knife_2.png</Source>
+      <Name>Player Sprites\Throwing Knife\Throw\survivor-throw_knife_2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Player Sprites\Throwing Knife\Throw\survivor-throw_knife_2.xnb</Output>
+      <Time>2015-12-28T14:23:52-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Player Sprites\Throwing Knife\Throw\survivor-throw_knife_20.png</Source>
+      <Name>Player Sprites\Throwing Knife\Throw\survivor-throw_knife_20</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Player Sprites\Throwing Knife\Throw\survivor-throw_knife_20.xnb</Output>
+      <Time>2015-12-28T14:23:52-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Player Sprites\Throwing Knife\Throw\survivor-throw_knife_21.png</Source>
+      <Name>Player Sprites\Throwing Knife\Throw\survivor-throw_knife_21</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Player Sprites\Throwing Knife\Throw\survivor-throw_knife_21.xnb</Output>
+      <Time>2015-12-28T14:23:52-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Player Sprites\Throwing Knife\Throw\survivor-throw_knife_22.png</Source>
+      <Name>Player Sprites\Throwing Knife\Throw\survivor-throw_knife_22</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Player Sprites\Throwing Knife\Throw\survivor-throw_knife_22.xnb</Output>
+      <Time>2015-12-28T14:23:52-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Player Sprites\Throwing Knife\Throw\survivor-throw_knife_23.png</Source>
+      <Name>Player Sprites\Throwing Knife\Throw\survivor-throw_knife_23</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Player Sprites\Throwing Knife\Throw\survivor-throw_knife_23.xnb</Output>
+      <Time>2015-12-28T14:23:52-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Player Sprites\Throwing Knife\Throw\survivor-throw_knife_3.png</Source>
+      <Name>Player Sprites\Throwing Knife\Throw\survivor-throw_knife_3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Player Sprites\Throwing Knife\Throw\survivor-throw_knife_3.xnb</Output>
+      <Time>2015-12-28T14:23:52-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Player Sprites\Throwing Knife\Throw\survivor-throw_knife_4.png</Source>
+      <Name>Player Sprites\Throwing Knife\Throw\survivor-throw_knife_4</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Player Sprites\Throwing Knife\Throw\survivor-throw_knife_4.xnb</Output>
+      <Time>2015-12-28T14:23:52-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Player Sprites\Throwing Knife\Throw\survivor-throw_knife_5.png</Source>
+      <Name>Player Sprites\Throwing Knife\Throw\survivor-throw_knife_5</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Player Sprites\Throwing Knife\Throw\survivor-throw_knife_5.xnb</Output>
+      <Time>2015-12-28T14:23:52-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Player Sprites\Throwing Knife\Throw\survivor-throw_knife_6.png</Source>
+      <Name>Player Sprites\Throwing Knife\Throw\survivor-throw_knife_6</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Player Sprites\Throwing Knife\Throw\survivor-throw_knife_6.xnb</Output>
+      <Time>2015-12-28T14:23:52-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Player Sprites\Throwing Knife\Throw\survivor-throw_knife_7.png</Source>
+      <Name>Player Sprites\Throwing Knife\Throw\survivor-throw_knife_7</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Player Sprites\Throwing Knife\Throw\survivor-throw_knife_7.xnb</Output>
+      <Time>2015-12-28T14:23:52-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Player Sprites\Throwing Knife\Throw\survivor-throw_knife_8.png</Source>
+      <Name>Player Sprites\Throwing Knife\Throw\survivor-throw_knife_8</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Player Sprites\Throwing Knife\Throw\survivor-throw_knife_8.xnb</Output>
+      <Time>2015-12-28T14:23:52-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Player Sprites\Throwing Knife\Throw\survivor-throw_knife_9.png</Source>
+      <Name>Player Sprites\Throwing Knife\Throw\survivor-throw_knife_9</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Player Sprites\Throwing Knife\Throw\survivor-throw_knife_9.xnb</Output>
+      <Time>2015-12-28T14:23:52-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Projectiles\Knife.png</Source>
+      <Name>Projectiles\Knife</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Projectiles\Knife.xnb</Output>
+      <Time>2015-12-30T19:43:32-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Projectiles\Bullet.png</Source>
+      <Name>Projectiles\Bullet</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Projectiles\Bullet.xnb</Output>
+      <Time>2015-12-30T19:43:32-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Fonts\TitleFont.spritefont</Source>
+      <Name>Fonts\TitleFont</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Fonts\TitleFont.xnb</Output>
+      <Time>2016-01-09T10:24:28-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Fonts\ButtonFont.spritefont</Source>
+      <Name>Fonts\ButtonFont</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Fonts\ButtonFont.xnb</Output>
+      <Time>2016-01-09T10:44:44-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Fonts\EnlargedButtonFont.spritefont</Source>
+      <Name>Fonts\EnlargedButtonFont</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Fonts\EnlargedButtonFont.xnb</Output>
+      <Time>2016-01-14T23:21:30-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Sounds\Background Music.mp3</Source>
+      <Name>Sounds\Background Music</Name>
+      <Importer>Mp3Importer</Importer>
+      <Processor>SongProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Sounds\Background Music.xnb</Output>
+      <Extra>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\Sounds\Background Music.wma</Extra>
+      <Time>2016-01-21T00:45:00-05:00</Time>
+    </Item>
+    <BuildSuccessful>true</BuildSuccessful>
+    <Settings>
+      <ContentProjectGUID>{3B701847-2787-43D1-8587-95F5033D17C3}</ContentProjectGUID>
+      <TargetPlatform>Windows</TargetPlatform>
+      <TargetProfile>Reach</TargetProfile>
+      <BuildConfiguration>Debug</BuildConfiguration>
+      <CompressContent>false</CompressContent>
+      <RootDirectory>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The SkyContent\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\verch\Desktop\Programming\Shooter From The Sky\Shooter From The Sky\Shooter From The Sky\bin\x86\Debug\Content\</OutputDirectory>
+    </Settings>
+    <Assemblies>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>
+        <Value>2011-09-01T16:22:30-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.VideoImporters.dll</Key>
+        <Value>2011-09-01T16:22:30-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.dll</Key>
+        <Value>2011-09-01T16:22:30-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.FBXImporter.dll</Key>
+        <Value>2011-09-01T16:22:30-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.dll</Key>
+        <Value>2011-09-01T16:22:30-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.AudioImporters.dll</Key>
+        <Value>2011-09-01T16:22:30-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\WINDOWS\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
+        <Value>2017-05-17T13:40:05.9742499-04:00</Value>
+      </Assembly>
+    </Assemblies>
+  </Asset>
+</XnaContent>

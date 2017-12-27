@@ -1,0 +1,1703 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{3B701847-2787-43D1-8587-95F5033D17C3}</ProjectGuid>
+    <ProjectTypeGuids>{96E2B04D-8817-42c6-938A-82C39BA4D311};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <XnaFrameworkVersion>v4.0</XnaFrameworkVersion>
+    <OutputPath>bin\$(Platform)\$(Configuration)</OutputPath>
+    <ContentRootDirectory>Content</ContentRootDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace>Shooter_From_The_SkyContent</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Xna.Framework.Content.Pipeline.EffectImporter, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.Xna.Framework.Content.Pipeline.FBXImporter, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.Xna.Framework.Content.Pipeline.TextureImporter, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.Xna.Framework.Content.Pipeline.XImporter, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.Xna.Framework.Content.Pipeline.AudioImporters, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.Xna.Framework.Content.Pipeline.VideoImporters, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=MSIL" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Tiles\Save Game Tile.png">
+      <Name>Save Game Tile</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Tiles\Wall Tile.png">
+      <Name>Wall Tile</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Tiles\Reg Tile.png">
+      <Name>Reg Tile</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Tiles\Spawn Tile.png">
+      <Name>Spawn Tile</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Enemy Sprites\Idle\enemy-idle_rifle_0.png">
+      <Name>enemy-idle_rifle_0</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Enemy Sprites\Idle\enemy-idle_rifle_1.png">
+      <Name>enemy-idle_rifle_1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Enemy Sprites\Idle\enemy-idle_rifle_10.png">
+      <Name>enemy-idle_rifle_10</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Enemy Sprites\Idle\enemy-idle_rifle_11.png">
+      <Name>enemy-idle_rifle_11</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Enemy Sprites\Idle\enemy-idle_rifle_12.png">
+      <Name>enemy-idle_rifle_12</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Enemy Sprites\Idle\enemy-idle_rifle_13.png">
+      <Name>enemy-idle_rifle_13</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Enemy Sprites\Idle\enemy-idle_rifle_14.png">
+      <Name>enemy-idle_rifle_14</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Enemy Sprites\Idle\enemy-idle_rifle_15.png">
+      <Name>enemy-idle_rifle_15</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Enemy Sprites\Idle\enemy-idle_rifle_16.png">
+      <Name>enemy-idle_rifle_16</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Enemy Sprites\Idle\enemy-idle_rifle_17.png">
+      <Name>enemy-idle_rifle_17</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Enemy Sprites\Idle\enemy-idle_rifle_18.png">
+      <Name>enemy-idle_rifle_18</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Enemy Sprites\Idle\enemy-idle_rifle_19.png">
+      <Name>enemy-idle_rifle_19</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Enemy Sprites\Idle\enemy-idle_rifle_2.png">
+      <Name>enemy-idle_rifle_2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Enemy Sprites\Idle\enemy-idle_rifle_3.png">
+      <Name>enemy-idle_rifle_3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Enemy Sprites\Idle\enemy-idle_rifle_4.png">
+      <Name>enemy-idle_rifle_4</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Enemy Sprites\Idle\enemy-idle_rifle_5.png">
+      <Name>enemy-idle_rifle_5</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Enemy Sprites\Idle\enemy-idle_rifle_6.png">
+      <Name>enemy-idle_rifle_6</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Enemy Sprites\Idle\enemy-idle_rifle_7.png">
+      <Name>enemy-idle_rifle_7</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Enemy Sprites\Idle\enemy-idle_rifle_8.png">
+      <Name>enemy-idle_rifle_8</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Enemy Sprites\Idle\enemy-idle_rifle_9.png">
+      <Name>enemy-idle_rifle_9</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Enemy Sprites\Move\enemy-move_rifle_0.png">
+      <Name>enemy-move_rifle_0</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Enemy Sprites\Move\enemy-move_rifle_1.png">
+      <Name>enemy-move_rifle_1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Enemy Sprites\Move\enemy-move_rifle_10.png">
+      <Name>enemy-move_rifle_10</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Enemy Sprites\Move\enemy-move_rifle_11.png">
+      <Name>enemy-move_rifle_11</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Enemy Sprites\Move\enemy-move_rifle_12.png">
+      <Name>enemy-move_rifle_12</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Enemy Sprites\Move\enemy-move_rifle_13.png">
+      <Name>enemy-move_rifle_13</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Enemy Sprites\Move\enemy-move_rifle_14.png">
+      <Name>enemy-move_rifle_14</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Enemy Sprites\Move\enemy-move_rifle_15.png">
+      <Name>enemy-move_rifle_15</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Enemy Sprites\Move\enemy-move_rifle_16.png">
+      <Name>enemy-move_rifle_16</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Enemy Sprites\Move\enemy-move_rifle_17.png">
+      <Name>enemy-move_rifle_17</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Enemy Sprites\Move\enemy-move_rifle_18.png">
+      <Name>enemy-move_rifle_18</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Enemy Sprites\Move\enemy-move_rifle_19.png">
+      <Name>enemy-move_rifle_19</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Enemy Sprites\Move\enemy-move_rifle_2.png">
+      <Name>enemy-move_rifle_2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Enemy Sprites\Move\enemy-move_rifle_3.png">
+      <Name>enemy-move_rifle_3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Enemy Sprites\Move\enemy-move_rifle_4.png">
+      <Name>enemy-move_rifle_4</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Enemy Sprites\Move\enemy-move_rifle_5.png">
+      <Name>enemy-move_rifle_5</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Enemy Sprites\Move\enemy-move_rifle_6.png">
+      <Name>enemy-move_rifle_6</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Enemy Sprites\Move\enemy-move_rifle_7.png">
+      <Name>enemy-move_rifle_7</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Enemy Sprites\Move\enemy-move_rifle_8.png">
+      <Name>enemy-move_rifle_8</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Enemy Sprites\Move\enemy-move_rifle_9.png">
+      <Name>enemy-move_rifle_9</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Enemy Sprites\Reload\enemy-reload_rifle_0.png">
+      <Name>enemy-reload_rifle_0</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Enemy Sprites\Reload\enemy-reload_rifle_1.png">
+      <Name>enemy-reload_rifle_1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Enemy Sprites\Reload\enemy-reload_rifle_10.png">
+      <Name>enemy-reload_rifle_10</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Enemy Sprites\Reload\enemy-reload_rifle_11.png">
+      <Name>enemy-reload_rifle_11</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Enemy Sprites\Reload\enemy-reload_rifle_12.png">
+      <Name>enemy-reload_rifle_12</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Enemy Sprites\Reload\enemy-reload_rifle_13.png">
+      <Name>enemy-reload_rifle_13</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Enemy Sprites\Reload\enemy-reload_rifle_14.png">
+      <Name>enemy-reload_rifle_14</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Enemy Sprites\Reload\enemy-reload_rifle_15.png">
+      <Name>enemy-reload_rifle_15</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Enemy Sprites\Reload\enemy-reload_rifle_16.png">
+      <Name>enemy-reload_rifle_16</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Enemy Sprites\Reload\enemy-reload_rifle_17.png">
+      <Name>enemy-reload_rifle_17</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Enemy Sprites\Reload\enemy-reload_rifle_18.png">
+      <Name>enemy-reload_rifle_18</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Enemy Sprites\Reload\enemy-reload_rifle_19.png">
+      <Name>enemy-reload_rifle_19</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Enemy Sprites\Reload\enemy-reload_rifle_2.png">
+      <Name>enemy-reload_rifle_2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Enemy Sprites\Reload\enemy-reload_rifle_3.png">
+      <Name>enemy-reload_rifle_3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Enemy Sprites\Reload\enemy-reload_rifle_4.png">
+      <Name>enemy-reload_rifle_4</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Enemy Sprites\Reload\enemy-reload_rifle_5.png">
+      <Name>enemy-reload_rifle_5</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Enemy Sprites\Reload\enemy-reload_rifle_6.png">
+      <Name>enemy-reload_rifle_6</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Enemy Sprites\Reload\enemy-reload_rifle_7.png">
+      <Name>enemy-reload_rifle_7</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Enemy Sprites\Reload\enemy-reload_rifle_8.png">
+      <Name>enemy-reload_rifle_8</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Enemy Sprites\Reload\enemy-reload_rifle_9.png">
+      <Name>enemy-reload_rifle_9</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Enemy Sprites\Shoot\enemy-shoot_rifle_0.png">
+      <Name>enemy-shoot_rifle_0</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Enemy Sprites\Shoot\enemy-shoot_rifle_1.png">
+      <Name>enemy-shoot_rifle_1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Enemy Sprites\Shoot\enemy-shoot_rifle_2.png">
+      <Name>enemy-shoot_rifle_2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Player Sprites\Handgun\Idle\survivor-idle_handgun_0.png">
+      <Name>survivor-idle_handgun_0</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Player Sprites\Handgun\Idle\survivor-idle_handgun_1.png">
+      <Name>survivor-idle_handgun_1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Player Sprites\Handgun\Idle\survivor-idle_handgun_10.png">
+      <Name>survivor-idle_handgun_10</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Player Sprites\Handgun\Idle\survivor-idle_handgun_11.png">
+      <Name>survivor-idle_handgun_11</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Player Sprites\Handgun\Idle\survivor-idle_handgun_12.png">
+      <Name>survivor-idle_handgun_12</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Player Sprites\Handgun\Idle\survivor-idle_handgun_13.png">
+      <Name>survivor-idle_handgun_13</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Player Sprites\Handgun\Idle\survivor-idle_handgun_14.png">
+      <Name>survivor-idle_handgun_14</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Player Sprites\Handgun\Idle\survivor-idle_handgun_15.png">
+      <Name>survivor-idle_handgun_15</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Player Sprites\Handgun\Idle\survivor-idle_handgun_16.png">
+      <Name>survivor-idle_handgun_16</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Player Sprites\Handgun\Idle\survivor-idle_handgun_17.png">
+      <Name>survivor-idle_handgun_17</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Player Sprites\Handgun\Idle\survivor-idle_handgun_18.png">
+      <Name>survivor-idle_handgun_18</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Player Sprites\Handgun\Idle\survivor-idle_handgun_19.png">
+      <Name>survivor-idle_handgun_19</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Player Sprites\Handgun\Idle\survivor-idle_handgun_2.png">
+      <Name>survivor-idle_handgun_2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Player Sprites\Handgun\Idle\survivor-idle_handgun_3.png">
+      <Name>survivor-idle_handgun_3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Player Sprites\Handgun\Idle\survivor-idle_handgun_4.png">
+      <Name>survivor-idle_handgun_4</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Player Sprites\Handgun\Idle\survivor-idle_handgun_5.png">
+      <Name>survivor-idle_handgun_5</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Player Sprites\Handgun\Idle\survivor-idle_handgun_6.png">
+      <Name>survivor-idle_handgun_6</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Player Sprites\Handgun\Idle\survivor-idle_handgun_7.png">
+      <Name>survivor-idle_handgun_7</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Player Sprites\Handgun\Idle\survivor-idle_handgun_8.png">
+      <Name>survivor-idle_handgun_8</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Player Sprites\Handgun\Idle\survivor-idle_handgun_9.png">
+      <Name>survivor-idle_handgun_9</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Player Sprites\Handgun\Move\survivor-move_handgun_0.png">
+      <Name>survivor-move_handgun_0</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Player Sprites\Handgun\Move\survivor-move_handgun_1.png">
+      <Name>survivor-move_handgun_1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Player Sprites\Handgun\Move\survivor-move_handgun_10.png">
+      <Name>survivor-move_handgun_10</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Player Sprites\Handgun\Move\survivor-move_handgun_11.png">
+      <Name>survivor-move_handgun_11</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Player Sprites\Handgun\Move\survivor-move_handgun_12.png">
+      <Name>survivor-move_handgun_12</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Player Sprites\Handgun\Move\survivor-move_handgun_13.png">
+      <Name>survivor-move_handgun_13</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Player Sprites\Handgun\Move\survivor-move_handgun_14.png">
+      <Name>survivor-move_handgun_14</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Player Sprites\Handgun\Move\survivor-move_handgun_15.png">
+      <Name>survivor-move_handgun_15</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Player Sprites\Handgun\Move\survivor-move_handgun_16.png">
+      <Name>survivor-move_handgun_16</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Player Sprites\Handgun\Move\survivor-move_handgun_17.png">
+      <Name>survivor-move_handgun_17</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Player Sprites\Handgun\Move\survivor-move_handgun_18.png">
+      <Name>survivor-move_handgun_18</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Player Sprites\Handgun\Move\survivor-move_handgun_19.png">
+      <Name>survivor-move_handgun_19</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Player Sprites\Handgun\Move\survivor-move_handgun_2.png">
+      <Name>survivor-move_handgun_2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Player Sprites\Handgun\Move\survivor-move_handgun_3.png">
+      <Name>survivor-move_handgun_3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Player Sprites\Handgun\Move\survivor-move_handgun_4.png">
+      <Name>survivor-move_handgun_4</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Player Sprites\Handgun\Move\survivor-move_handgun_5.png">
+      <Name>survivor-move_handgun_5</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Player Sprites\Handgun\Move\survivor-move_handgun_6.png">
+      <Name>survivor-move_handgun_6</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Player Sprites\Handgun\Move\survivor-move_handgun_7.png">
+      <Name>survivor-move_handgun_7</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Player Sprites\Handgun\Move\survivor-move_handgun_8.png">
+      <Name>survivor-move_handgun_8</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Player Sprites\Handgun\Move\survivor-move_handgun_9.png">
+      <Name>survivor-move_handgun_9</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Player Sprites\Handgun\Reload\survivor-reload_handgun_0.png">
+      <Name>survivor-reload_handgun_0</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Player Sprites\Handgun\Reload\survivor-reload_handgun_1.png">
+      <Name>survivor-reload_handgun_1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Player Sprites\Handgun\Reload\survivor-reload_handgun_10.png">
+      <Name>survivor-reload_handgun_10</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Player Sprites\Handgun\Reload\survivor-reload_handgun_11.png">
+      <Name>survivor-reload_handgun_11</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Player Sprites\Handgun\Reload\survivor-reload_handgun_12.png">
+      <Name>survivor-reload_handgun_12</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Player Sprites\Handgun\Reload\survivor-reload_handgun_13.png">
+      <Name>survivor-reload_handgun_13</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Player Sprites\Handgun\Reload\survivor-reload_handgun_14.png">
+      <Name>survivor-reload_handgun_14</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Player Sprites\Handgun\Reload\survivor-reload_handgun_2.png">
+      <Name>survivor-reload_handgun_2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Player Sprites\Handgun\Reload\survivor-reload_handgun_3.png">
+      <Name>survivor-reload_handgun_3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Player Sprites\Handgun\Reload\survivor-reload_handgun_4.png">
+      <Name>survivor-reload_handgun_4</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Player Sprites\Handgun\Reload\survivor-reload_handgun_5.png">
+      <Name>survivor-reload_handgun_5</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Player Sprites\Handgun\Reload\survivor-reload_handgun_6.png">
+      <Name>survivor-reload_handgun_6</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Player Sprites\Handgun\Reload\survivor-reload_handgun_7.png">
+      <Name>survivor-reload_handgun_7</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Player Sprites\Handgun\Reload\survivor-reload_handgun_8.png">
+      <Name>survivor-reload_handgun_8</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Player Sprites\Handgun\Reload\survivor-reload_handgun_9.png">
+      <Name>survivor-reload_handgun_9</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Player Sprites\Handgun\Shoot\survivor-shoot_handgun_0.png">
+      <Name>survivor-shoot_handgun_0</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Player Sprites\Handgun\Shoot\survivor-shoot_handgun_1.png">
+      <Name>survivor-shoot_handgun_1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Player Sprites\Handgun\Shoot\survivor-shoot_handgun_2.png">
+      <Name>survivor-shoot_handgun_2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Player Sprites\Rifle\Idle\survivor-idle_rifle_0.png">
+      <Name>survivor-idle_rifle_0</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Player Sprites\Rifle\Idle\survivor-idle_rifle_1.png">
+      <Name>survivor-idle_rifle_1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Player Sprites\Rifle\Idle\survivor-idle_rifle_10.png">
+      <Name>survivor-idle_rifle_10</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Player Sprites\Rifle\Idle\survivor-idle_rifle_11.png">
+      <Name>survivor-idle_rifle_11</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Player Sprites\Rifle\Idle\survivor-idle_rifle_12.png">
+      <Name>survivor-idle_rifle_12</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Player Sprites\Rifle\Idle\survivor-idle_rifle_13.png">
+      <Name>survivor-idle_rifle_13</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Player Sprites\Rifle\Idle\survivor-idle_rifle_14.png">
+      <Name>survivor-idle_rifle_14</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Player Sprites\Rifle\Idle\survivor-idle_rifle_15.png">
+      <Name>survivor-idle_rifle_15</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Player Sprites\Rifle\Idle\survivor-idle_rifle_16.png">
+      <Name>survivor-idle_rifle_16</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Player Sprites\Rifle\Idle\survivor-idle_rifle_17.png">
+      <Name>survivor-idle_rifle_17</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Player Sprites\Rifle\Idle\survivor-idle_rifle_18.png">
+      <Name>survivor-idle_rifle_18</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Player Sprites\Rifle\Idle\survivor-idle_rifle_19.png">
+      <Name>survivor-idle_rifle_19</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Player Sprites\Rifle\Idle\survivor-idle_rifle_2.png">
+      <Name>survivor-idle_rifle_2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Player Sprites\Rifle\Idle\survivor-idle_rifle_3.png">
+      <Name>survivor-idle_rifle_3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Player Sprites\Rifle\Idle\survivor-idle_rifle_4.png">
+      <Name>survivor-idle_rifle_4</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Player Sprites\Rifle\Idle\survivor-idle_rifle_5.png">
+      <Name>survivor-idle_rifle_5</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Player Sprites\Rifle\Idle\survivor-idle_rifle_6.png">
+      <Name>survivor-idle_rifle_6</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Player Sprites\Rifle\Idle\survivor-idle_rifle_7.png">
+      <Name>survivor-idle_rifle_7</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Player Sprites\Rifle\Idle\survivor-idle_rifle_8.png">
+      <Name>survivor-idle_rifle_8</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Player Sprites\Rifle\Idle\survivor-idle_rifle_9.png">
+      <Name>survivor-idle_rifle_9</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Player Sprites\Rifle\Move\survivor-move_rifle_0.png">
+      <Name>survivor-move_rifle_0</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Player Sprites\Rifle\Move\survivor-move_rifle_1.png">
+      <Name>survivor-move_rifle_1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Player Sprites\Rifle\Move\survivor-move_rifle_10.png">
+      <Name>survivor-move_rifle_10</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Player Sprites\Rifle\Move\survivor-move_rifle_11.png">
+      <Name>survivor-move_rifle_11</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Player Sprites\Rifle\Move\survivor-move_rifle_12.png">
+      <Name>survivor-move_rifle_12</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Player Sprites\Rifle\Move\survivor-move_rifle_13.png">
+      <Name>survivor-move_rifle_13</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Player Sprites\Rifle\Move\survivor-move_rifle_14.png">
+      <Name>survivor-move_rifle_14</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Player Sprites\Rifle\Move\survivor-move_rifle_15.png">
+      <Name>survivor-move_rifle_15</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Player Sprites\Rifle\Move\survivor-move_rifle_16.png">
+      <Name>survivor-move_rifle_16</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Player Sprites\Rifle\Move\survivor-move_rifle_17.png">
+      <Name>survivor-move_rifle_17</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Player Sprites\Rifle\Move\survivor-move_rifle_18.png">
+      <Name>survivor-move_rifle_18</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Player Sprites\Rifle\Move\survivor-move_rifle_19.png">
+      <Name>survivor-move_rifle_19</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Player Sprites\Rifle\Move\survivor-move_rifle_2.png">
+      <Name>survivor-move_rifle_2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Player Sprites\Rifle\Move\survivor-move_rifle_3.png">
+      <Name>survivor-move_rifle_3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Player Sprites\Rifle\Move\survivor-move_rifle_4.png">
+      <Name>survivor-move_rifle_4</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Player Sprites\Rifle\Move\survivor-move_rifle_5.png">
+      <Name>survivor-move_rifle_5</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Player Sprites\Rifle\Move\survivor-move_rifle_6.png">
+      <Name>survivor-move_rifle_6</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Player Sprites\Rifle\Move\survivor-move_rifle_7.png">
+      <Name>survivor-move_rifle_7</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Player Sprites\Rifle\Move\survivor-move_rifle_8.png">
+      <Name>survivor-move_rifle_8</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Player Sprites\Rifle\Move\survivor-move_rifle_9.png">
+      <Name>survivor-move_rifle_9</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Player Sprites\Rifle\Reload\survivor-reload_rifle_0.png">
+      <Name>survivor-reload_rifle_0</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Player Sprites\Rifle\Reload\survivor-reload_rifle_1.png">
+      <Name>survivor-reload_rifle_1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Player Sprites\Rifle\Reload\survivor-reload_rifle_10.png">
+      <Name>survivor-reload_rifle_10</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Player Sprites\Rifle\Reload\survivor-reload_rifle_11.png">
+      <Name>survivor-reload_rifle_11</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Player Sprites\Rifle\Reload\survivor-reload_rifle_12.png">
+      <Name>survivor-reload_rifle_12</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Player Sprites\Rifle\Reload\survivor-reload_rifle_13.png">
+      <Name>survivor-reload_rifle_13</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Player Sprites\Rifle\Reload\survivor-reload_rifle_14.png">
+      <Name>survivor-reload_rifle_14</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Player Sprites\Rifle\Reload\survivor-reload_rifle_15.png">
+      <Name>survivor-reload_rifle_15</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Player Sprites\Rifle\Reload\survivor-reload_rifle_16.png">
+      <Name>survivor-reload_rifle_16</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Player Sprites\Rifle\Reload\survivor-reload_rifle_17.png">
+      <Name>survivor-reload_rifle_17</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Player Sprites\Rifle\Reload\survivor-reload_rifle_18.png">
+      <Name>survivor-reload_rifle_18</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Player Sprites\Rifle\Reload\survivor-reload_rifle_19.png">
+      <Name>survivor-reload_rifle_19</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Player Sprites\Rifle\Reload\survivor-reload_rifle_2.png">
+      <Name>survivor-reload_rifle_2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Player Sprites\Rifle\Reload\survivor-reload_rifle_3.png">
+      <Name>survivor-reload_rifle_3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Player Sprites\Rifle\Reload\survivor-reload_rifle_4.png">
+      <Name>survivor-reload_rifle_4</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Player Sprites\Rifle\Reload\survivor-reload_rifle_5.png">
+      <Name>survivor-reload_rifle_5</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Player Sprites\Rifle\Reload\survivor-reload_rifle_6.png">
+      <Name>survivor-reload_rifle_6</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Player Sprites\Rifle\Reload\survivor-reload_rifle_7.png">
+      <Name>survivor-reload_rifle_7</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Player Sprites\Rifle\Reload\survivor-reload_rifle_8.png">
+      <Name>survivor-reload_rifle_8</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Player Sprites\Rifle\Reload\survivor-reload_rifle_9.png">
+      <Name>survivor-reload_rifle_9</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Player Sprites\Rifle\Shoot\survivor-shoot_rifle_0.png">
+      <Name>survivor-shoot_rifle_0</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Player Sprites\Rifle\Shoot\survivor-shoot_rifle_1.png">
+      <Name>survivor-shoot_rifle_1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Player Sprites\Rifle\Shoot\survivor-shoot_rifle_2.png">
+      <Name>survivor-shoot_rifle_2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Player Sprites\Shotgun\Idle\survivor-idle_shotgun_0.png">
+      <Name>survivor-idle_shotgun_0</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Player Sprites\Shotgun\Idle\survivor-idle_shotgun_1.png">
+      <Name>survivor-idle_shotgun_1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Player Sprites\Shotgun\Idle\survivor-idle_shotgun_10.png">
+      <Name>survivor-idle_shotgun_10</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Player Sprites\Shotgun\Idle\survivor-idle_shotgun_11.png">
+      <Name>survivor-idle_shotgun_11</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Player Sprites\Shotgun\Idle\survivor-idle_shotgun_12.png">
+      <Name>survivor-idle_shotgun_12</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Player Sprites\Shotgun\Idle\survivor-idle_shotgun_13.png">
+      <Name>survivor-idle_shotgun_13</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Player Sprites\Shotgun\Idle\survivor-idle_shotgun_14.png">
+      <Name>survivor-idle_shotgun_14</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Player Sprites\Shotgun\Idle\survivor-idle_shotgun_15.png">
+      <Name>survivor-idle_shotgun_15</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Player Sprites\Shotgun\Idle\survivor-idle_shotgun_16.png">
+      <Name>survivor-idle_shotgun_16</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Player Sprites\Shotgun\Idle\survivor-idle_shotgun_17.png">
+      <Name>survivor-idle_shotgun_17</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Player Sprites\Shotgun\Idle\survivor-idle_shotgun_18.png">
+      <Name>survivor-idle_shotgun_18</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Player Sprites\Shotgun\Idle\survivor-idle_shotgun_19.png">
+      <Name>survivor-idle_shotgun_19</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Player Sprites\Shotgun\Idle\survivor-idle_shotgun_2.png">
+      <Name>survivor-idle_shotgun_2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Player Sprites\Shotgun\Idle\survivor-idle_shotgun_3.png">
+      <Name>survivor-idle_shotgun_3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Player Sprites\Shotgun\Idle\survivor-idle_shotgun_4.png">
+      <Name>survivor-idle_shotgun_4</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Player Sprites\Shotgun\Idle\survivor-idle_shotgun_5.png">
+      <Name>survivor-idle_shotgun_5</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Player Sprites\Shotgun\Idle\survivor-idle_shotgun_6.png">
+      <Name>survivor-idle_shotgun_6</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Player Sprites\Shotgun\Idle\survivor-idle_shotgun_7.png">
+      <Name>survivor-idle_shotgun_7</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Player Sprites\Shotgun\Idle\survivor-idle_shotgun_8.png">
+      <Name>survivor-idle_shotgun_8</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Player Sprites\Shotgun\Idle\survivor-idle_shotgun_9.png">
+      <Name>survivor-idle_shotgun_9</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Player Sprites\Shotgun\Move\survivor-move_shotgun_0.png">
+      <Name>survivor-move_shotgun_0</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Player Sprites\Shotgun\Move\survivor-move_shotgun_1.png">
+      <Name>survivor-move_shotgun_1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Player Sprites\Shotgun\Move\survivor-move_shotgun_10.png">
+      <Name>survivor-move_shotgun_10</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Player Sprites\Shotgun\Move\survivor-move_shotgun_11.png">
+      <Name>survivor-move_shotgun_11</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Player Sprites\Shotgun\Move\survivor-move_shotgun_12.png">
+      <Name>survivor-move_shotgun_12</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Player Sprites\Shotgun\Move\survivor-move_shotgun_13.png">
+      <Name>survivor-move_shotgun_13</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Player Sprites\Shotgun\Move\survivor-move_shotgun_14.png">
+      <Name>survivor-move_shotgun_14</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Player Sprites\Shotgun\Move\survivor-move_shotgun_15.png">
+      <Name>survivor-move_shotgun_15</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Player Sprites\Shotgun\Move\survivor-move_shotgun_16.png">
+      <Name>survivor-move_shotgun_16</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Player Sprites\Shotgun\Move\survivor-move_shotgun_17.png">
+      <Name>survivor-move_shotgun_17</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Player Sprites\Shotgun\Move\survivor-move_shotgun_18.png">
+      <Name>survivor-move_shotgun_18</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Player Sprites\Shotgun\Move\survivor-move_shotgun_19.png">
+      <Name>survivor-move_shotgun_19</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Player Sprites\Shotgun\Move\survivor-move_shotgun_2.png">
+      <Name>survivor-move_shotgun_2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Player Sprites\Shotgun\Move\survivor-move_shotgun_3.png">
+      <Name>survivor-move_shotgun_3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Player Sprites\Shotgun\Move\survivor-move_shotgun_4.png">
+      <Name>survivor-move_shotgun_4</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Player Sprites\Shotgun\Move\survivor-move_shotgun_5.png">
+      <Name>survivor-move_shotgun_5</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Player Sprites\Shotgun\Move\survivor-move_shotgun_6.png">
+      <Name>survivor-move_shotgun_6</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Player Sprites\Shotgun\Move\survivor-move_shotgun_7.png">
+      <Name>survivor-move_shotgun_7</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Player Sprites\Shotgun\Move\survivor-move_shotgun_8.png">
+      <Name>survivor-move_shotgun_8</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Player Sprites\Shotgun\Move\survivor-move_shotgun_9.png">
+      <Name>survivor-move_shotgun_9</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Player Sprites\Shotgun\Reload\survivor-reload_shotgun_0.png">
+      <Name>survivor-reload_shotgun_0</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Player Sprites\Shotgun\Reload\survivor-reload_shotgun_1.png">
+      <Name>survivor-reload_shotgun_1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Player Sprites\Shotgun\Reload\survivor-reload_shotgun_10.png">
+      <Name>survivor-reload_shotgun_10</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Player Sprites\Shotgun\Reload\survivor-reload_shotgun_11.png">
+      <Name>survivor-reload_shotgun_11</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Player Sprites\Shotgun\Reload\survivor-reload_shotgun_12.png">
+      <Name>survivor-reload_shotgun_12</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Player Sprites\Shotgun\Reload\survivor-reload_shotgun_13.png">
+      <Name>survivor-reload_shotgun_13</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Player Sprites\Shotgun\Reload\survivor-reload_shotgun_14.png">
+      <Name>survivor-reload_shotgun_14</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Player Sprites\Shotgun\Reload\survivor-reload_shotgun_15.png">
+      <Name>survivor-reload_shotgun_15</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Player Sprites\Shotgun\Reload\survivor-reload_shotgun_16.png">
+      <Name>survivor-reload_shotgun_16</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Player Sprites\Shotgun\Reload\survivor-reload_shotgun_17.png">
+      <Name>survivor-reload_shotgun_17</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Player Sprites\Shotgun\Reload\survivor-reload_shotgun_18.png">
+      <Name>survivor-reload_shotgun_18</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Player Sprites\Shotgun\Reload\survivor-reload_shotgun_19.png">
+      <Name>survivor-reload_shotgun_19</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Player Sprites\Shotgun\Reload\survivor-reload_shotgun_2.png">
+      <Name>survivor-reload_shotgun_2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Player Sprites\Shotgun\Reload\survivor-reload_shotgun_3.png">
+      <Name>survivor-reload_shotgun_3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Player Sprites\Shotgun\Reload\survivor-reload_shotgun_4.png">
+      <Name>survivor-reload_shotgun_4</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Player Sprites\Shotgun\Reload\survivor-reload_shotgun_5.png">
+      <Name>survivor-reload_shotgun_5</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Player Sprites\Shotgun\Reload\survivor-reload_shotgun_6.png">
+      <Name>survivor-reload_shotgun_6</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Player Sprites\Shotgun\Reload\survivor-reload_shotgun_7.png">
+      <Name>survivor-reload_shotgun_7</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Player Sprites\Shotgun\Reload\survivor-reload_shotgun_8.png">
+      <Name>survivor-reload_shotgun_8</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Player Sprites\Shotgun\Reload\survivor-reload_shotgun_9.png">
+      <Name>survivor-reload_shotgun_9</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Player Sprites\Shotgun\Shoot\survivor-shoot_shotgun_0.png">
+      <Name>survivor-shoot_shotgun_0</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Player Sprites\Shotgun\Shoot\survivor-shoot_shotgun_1.png">
+      <Name>survivor-shoot_shotgun_1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Player Sprites\Shotgun\Shoot\survivor-shoot_shotgun_2.png">
+      <Name>survivor-shoot_shotgun_2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Player Sprites\Throwing Knife\Idle\survivor-idle_knife_0.png">
+      <Name>survivor-idle_knife_0</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Player Sprites\Throwing Knife\Idle\survivor-idle_knife_1.png">
+      <Name>survivor-idle_knife_1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Player Sprites\Throwing Knife\Idle\survivor-idle_knife_10.png">
+      <Name>survivor-idle_knife_10</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Player Sprites\Throwing Knife\Idle\survivor-idle_knife_11.png">
+      <Name>survivor-idle_knife_11</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Player Sprites\Throwing Knife\Idle\survivor-idle_knife_12.png">
+      <Name>survivor-idle_knife_12</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Player Sprites\Throwing Knife\Idle\survivor-idle_knife_13.png">
+      <Name>survivor-idle_knife_13</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Player Sprites\Throwing Knife\Idle\survivor-idle_knife_14.png">
+      <Name>survivor-idle_knife_14</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Player Sprites\Throwing Knife\Idle\survivor-idle_knife_15.png">
+      <Name>survivor-idle_knife_15</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Player Sprites\Throwing Knife\Idle\survivor-idle_knife_16.png">
+      <Name>survivor-idle_knife_16</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Player Sprites\Throwing Knife\Idle\survivor-idle_knife_17.png">
+      <Name>survivor-idle_knife_17</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Player Sprites\Throwing Knife\Idle\survivor-idle_knife_18.png">
+      <Name>survivor-idle_knife_18</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Player Sprites\Throwing Knife\Idle\survivor-idle_knife_19.png">
+      <Name>survivor-idle_knife_19</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Player Sprites\Throwing Knife\Idle\survivor-idle_knife_2.png">
+      <Name>survivor-idle_knife_2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Player Sprites\Throwing Knife\Idle\survivor-idle_knife_3.png">
+      <Name>survivor-idle_knife_3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Player Sprites\Throwing Knife\Idle\survivor-idle_knife_4.png">
+      <Name>survivor-idle_knife_4</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Player Sprites\Throwing Knife\Idle\survivor-idle_knife_5.png">
+      <Name>survivor-idle_knife_5</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Player Sprites\Throwing Knife\Idle\survivor-idle_knife_6.png">
+      <Name>survivor-idle_knife_6</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Player Sprites\Throwing Knife\Idle\survivor-idle_knife_7.png">
+      <Name>survivor-idle_knife_7</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Player Sprites\Throwing Knife\Idle\survivor-idle_knife_8.png">
+      <Name>survivor-idle_knife_8</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Player Sprites\Throwing Knife\Idle\survivor-idle_knife_9.png">
+      <Name>survivor-idle_knife_9</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Player Sprites\Throwing Knife\Move\survivor-move_knife_0.png">
+      <Name>survivor-move_knife_0</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Player Sprites\Throwing Knife\Move\survivor-move_knife_1.png">
+      <Name>survivor-move_knife_1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Player Sprites\Throwing Knife\Move\survivor-move_knife_10.png">
+      <Name>survivor-move_knife_10</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Player Sprites\Throwing Knife\Move\survivor-move_knife_11.png">
+      <Name>survivor-move_knife_11</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Player Sprites\Throwing Knife\Move\survivor-move_knife_12.png">
+      <Name>survivor-move_knife_12</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Player Sprites\Throwing Knife\Move\survivor-move_knife_13.png">
+      <Name>survivor-move_knife_13</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Player Sprites\Throwing Knife\Move\survivor-move_knife_14.png">
+      <Name>survivor-move_knife_14</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Player Sprites\Throwing Knife\Move\survivor-move_knife_15.png">
+      <Name>survivor-move_knife_15</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Player Sprites\Throwing Knife\Move\survivor-move_knife_16.png">
+      <Name>survivor-move_knife_16</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Player Sprites\Throwing Knife\Move\survivor-move_knife_17.png">
+      <Name>survivor-move_knife_17</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Player Sprites\Throwing Knife\Move\survivor-move_knife_18.png">
+      <Name>survivor-move_knife_18</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Player Sprites\Throwing Knife\Move\survivor-move_knife_19.png">
+      <Name>survivor-move_knife_19</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Player Sprites\Throwing Knife\Move\survivor-move_knife_2.png">
+      <Name>survivor-move_knife_2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Player Sprites\Throwing Knife\Move\survivor-move_knife_3.png">
+      <Name>survivor-move_knife_3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Player Sprites\Throwing Knife\Move\survivor-move_knife_4.png">
+      <Name>survivor-move_knife_4</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Player Sprites\Throwing Knife\Move\survivor-move_knife_5.png">
+      <Name>survivor-move_knife_5</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Player Sprites\Throwing Knife\Move\survivor-move_knife_6.png">
+      <Name>survivor-move_knife_6</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Player Sprites\Throwing Knife\Move\survivor-move_knife_7.png">
+      <Name>survivor-move_knife_7</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Player Sprites\Throwing Knife\Move\survivor-move_knife_8.png">
+      <Name>survivor-move_knife_8</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Player Sprites\Throwing Knife\Move\survivor-move_knife_9.png">
+      <Name>survivor-move_knife_9</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Player Sprites\Throwing Knife\Throw\survivor-throw_knife_0.png">
+      <Name>survivor-throw_knife_0</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Player Sprites\Throwing Knife\Throw\survivor-throw_knife_1.png">
+      <Name>survivor-throw_knife_1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Player Sprites\Throwing Knife\Throw\survivor-throw_knife_10.png">
+      <Name>survivor-throw_knife_10</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Player Sprites\Throwing Knife\Throw\survivor-throw_knife_11.png">
+      <Name>survivor-throw_knife_11</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Player Sprites\Throwing Knife\Throw\survivor-throw_knife_12.png">
+      <Name>survivor-throw_knife_12</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Player Sprites\Throwing Knife\Throw\survivor-throw_knife_13.png">
+      <Name>survivor-throw_knife_13</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Player Sprites\Throwing Knife\Throw\survivor-throw_knife_14.png">
+      <Name>survivor-throw_knife_14</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Player Sprites\Throwing Knife\Throw\survivor-throw_knife_15.png">
+      <Name>survivor-throw_knife_15</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Player Sprites\Throwing Knife\Throw\survivor-throw_knife_16.png">
+      <Name>survivor-throw_knife_16</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Player Sprites\Throwing Knife\Throw\survivor-throw_knife_17.png">
+      <Name>survivor-throw_knife_17</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Player Sprites\Throwing Knife\Throw\survivor-throw_knife_18.png">
+      <Name>survivor-throw_knife_18</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Player Sprites\Throwing Knife\Throw\survivor-throw_knife_19.png">
+      <Name>survivor-throw_knife_19</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Player Sprites\Throwing Knife\Throw\survivor-throw_knife_2.png">
+      <Name>survivor-throw_knife_2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Player Sprites\Throwing Knife\Throw\survivor-throw_knife_20.png">
+      <Name>survivor-throw_knife_20</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Player Sprites\Throwing Knife\Throw\survivor-throw_knife_21.png">
+      <Name>survivor-throw_knife_21</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Player Sprites\Throwing Knife\Throw\survivor-throw_knife_22.png">
+      <Name>survivor-throw_knife_22</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Player Sprites\Throwing Knife\Throw\survivor-throw_knife_23.png">
+      <Name>survivor-throw_knife_23</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Player Sprites\Throwing Knife\Throw\survivor-throw_knife_3.png">
+      <Name>survivor-throw_knife_3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Player Sprites\Throwing Knife\Throw\survivor-throw_knife_4.png">
+      <Name>survivor-throw_knife_4</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Player Sprites\Throwing Knife\Throw\survivor-throw_knife_5.png">
+      <Name>survivor-throw_knife_5</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Player Sprites\Throwing Knife\Throw\survivor-throw_knife_6.png">
+      <Name>survivor-throw_knife_6</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Player Sprites\Throwing Knife\Throw\survivor-throw_knife_7.png">
+      <Name>survivor-throw_knife_7</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Player Sprites\Throwing Knife\Throw\survivor-throw_knife_8.png">
+      <Name>survivor-throw_knife_8</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+    <Compile Include="Player Sprites\Throwing Knife\Throw\survivor-throw_knife_9.png">
+      <Name>survivor-throw_knife_9</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Projectiles\Knife.png">
+      <Name>Knife</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Projectiles\Bullet.png">
+      <Name>Bullet</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Fonts\TitleFont.spritefont">
+      <Name>TitleFont</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Fonts\ButtonFont.spritefont">
+      <Name>ButtonFont</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Fonts\EnlargedButtonFont.spritefont">
+      <Name>EnlargedButtonFont</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Sounds\Background Music.mp3">
+      <Name>Background Music</Name>
+      <Importer>Mp3Importer</Importer>
+      <Processor>SongProcessor</Processor>
+    </Compile>
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\XNA Game Studio\$(XnaFrameworkVersion)\Microsoft.Xna.GameStudio.ContentPipeline.targets" />
+  <!--  To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
