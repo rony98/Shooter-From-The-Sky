@@ -21,7 +21,7 @@ In order to view the project, Visual Studio is recommended to be installed.
 
 ```
 Install Visual Studio using the following URL:
-https://mxa.codeplex.com/releases/view/618279
+https://www.visualstudio.com/downloads/
 ```
 
 ## Running Application
