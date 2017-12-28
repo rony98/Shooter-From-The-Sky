@@ -16,7 +16,7 @@ using com.shephertz.app42.paas.sdk.csharp.upload;
 using System.IO;
 using System.Net;
 
-namespace NeuralNetworkV2
+namespace Shooter_From_The_Sky
 {
     class OnlineStorageHelper
     {
